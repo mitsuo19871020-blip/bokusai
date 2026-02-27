@@ -1,6 +1,7 @@
 import { Metadata } from 'next'
 import Link from 'next/link'
 import { assets } from '@/lib/assets'
+import Stripe from 'stripe'
 
 export const metadata: Metadata = {
   title: 'Purchase Complete — bokusai',
@@ -10,8 +11,51 @@ type Props = {
   searchParams: Promise<{ session_id?: string; asset_id?: string }>
 }
 
+async function verifySession(sessionId: string) {
+  try {
+    const stripe = new Stripe(process.env.STRIPE_SECRET_KEY!, {
+      apiVersion: '2026-02-25.clover',
+    })
+    const session = await stripe.checkout.sessions.retrieve(sessionId)
+    return session.payment_status === 'paid'
+  } catch {
+    return false
+  }
+}
+
 export default async function SuccessPage({ searchParams }: Props) {
-  const { asset_id } = await searchParams
+  const { session_id, asset_id } = await searchParams
+
+  // session_id がなければ不正アクセス
+  if (!session_id) {
+    return (
+      <main className="min-h-screen bg-black flex items-center justify-center px-6 pt-16">
+        <div className="text-center">
+          <p className="text-red-400 text-lg mb-4">Invalid access.</p>
+          <Link href="/" className="text-white/50 hover:text-white text-sm transition-colors">
+            Back to Home
+          </Link>
+        </div>
+      </main>
+    )
+  }
+
+  // Stripe で支払いを確認
+  const isPaid = await verifySession(session_id)
+
+  if (!isPaid) {
+    return (
+      <main className="min-h-screen bg-black flex items-center justify-center px-6 pt-16">
+        <div className="text-center">
+          <p className="text-red-400 text-lg mb-4">Payment could not be verified.</p>
+          <Link href="/" className="text-white/50 hover:text-white text-sm transition-colors">
+            Back to Home
+          </Link>
+        </div>
+      </main>
+    )
+  }
+
   const asset = assets.find((a) => a.id === Number(asset_id))
 
   return (
@@ -65,9 +109,15 @@ export default async function SuccessPage({ searchParams }: Props) {
                 {asset ? `${asset.resolution} · ${asset.format}` : 'Full resolution file'}
               </p>
             </div>
-            <span className="text-xs px-2.5 py-1 rounded bg-emerald-600/20 text-emerald-400 border border-emerald-600/20 shrink-0">
-              Check email
-            </span>
+            {asset?.image && (
+              <a
+                href={asset.image}
+                download
+                className="text-xs px-2.5 py-1 rounded bg-red-600/20 text-red-400 border border-red-600/20 shrink-0 hover:bg-red-600/30 transition-colors"
+              >
+                ダウンロード
+              </a>
+            )}
           </div>
         </div>
 
