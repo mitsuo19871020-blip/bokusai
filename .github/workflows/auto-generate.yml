@@ -1,0 +1,62 @@
+name: Auto Generate Images
+
+on:
+  schedule:
+    # 毎日 JST 午前0時に実行 (UTC 15:00)
+    - cron: '0 15 * * *'
+  workflow_dispatch:
+    inputs:
+      count:
+        description: '生成する画像の枚数'
+        required: false
+        default: '5'
+        type: string
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+          cache-dependency-path: package-lock.json
+
+      - name: Install dependencies
+        run: npm ci
+        working-directory: .
+
+      - name: Generate images
+        env:
+          HUGGINGFACE_API_KEY: ${{ secrets.HUGGINGFACE_API_KEY }}
+        run: node scripts/generate.js ${{ github.event.inputs.count || '5' }}
+
+      - name: Check for new files
+        id: check_changes
+        run: |
+          git status --short
+          if [ -n "$(git status --short)" ]; then
+            echo "has_changes=true" >> $GITHUB_OUTPUT
+          else
+            echo "has_changes=false" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Commit and push
+        if: steps.check_changes.outputs.has_changes == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/assets.json public/generated/
+          COUNT=${{ github.event.inputs.count || '5' }}
+          git commit -m "Add ${COUNT} new AI-generated assets [auto]"
+          git push
