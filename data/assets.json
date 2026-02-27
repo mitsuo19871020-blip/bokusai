@@ -1,184 +1,13 @@
 [
   {
-    "id": 1,
-    "title": "Cherry Blossom Rain",
-    "type": "video",
-    "category": "Sakura",
-    "price": 290,
-    "duration": "10s",
-    "tags": [
-      "loop",
-      "4K",
-      "spring",
-      "pink"
-    ],
-    "image": "https://images.unsplash.com/photo-1522383225653-ed111181a951?w=800&q=80",
-    "description": "Gentle cherry blossom petals drifting in a soft spring breeze. Perfect loop for meditation content, travel vlogs, and beauty brand overlays.",
-    "resolution": "3840 × 2160 (4K)",
-    "format": "MP4 / H.264",
-    "fileSize": "~180MB"
-  },
-  {
-    "id": 2,
-    "title": "Neon Tokyo Nights",
-    "type": "video",
-    "category": "Urban",
-    "price": 390,
-    "duration": "15s",
-    "tags": [
-      "loop",
-      "4K",
-      "neon",
-      "city"
-    ],
-    "image": "https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?w=800&q=80",
-    "description": "Rain-slicked streets reflecting neon kanji signs. The cinematic cyberpunk aesthetic of modern Tokyo captured in seamless loop format.",
-    "resolution": "3840 × 2160 (4K)",
-    "format": "MP4 / H.264",
-    "fileSize": "~250MB"
-  },
-  {
-    "id": 3,
-    "title": "Zen Garden Dawn",
-    "type": "image",
-    "category": "Wabi-sabi",
-    "price": 190,
-    "tags": [
-      "4K",
-      "portrait",
-      "zen",
-      "minimalist"
-    ],
-    "image": "https://images.unsplash.com/photo-1528360983277-13d401cdc186?w=800&q=80",
-    "description": "Morning mist rising over meticulously raked white gravel. Embodies the wabi-sabi philosophy of finding beauty in imperfection and transience.",
-    "resolution": "4096 × 2731 (4K)",
-    "format": "JPEG / PNG",
-    "fileSize": "~28MB"
-  },
-  {
-    "id": 4,
-    "title": "Torii Gate Mist",
-    "type": "image",
-    "category": "Shrine",
-    "price": 190,
-    "tags": [
-      "4K",
-      "landscape",
-      "shrine",
-      "red"
-    ],
-    "image": "https://images.unsplash.com/photo-1478436127897-769e1b3f0f36?w=800&q=80",
-    "description": "Iconic vermilion torii gates emerging from morning mist. The spiritual gateway between the mundane and sacred worlds of Shinto tradition.",
-    "resolution": "4096 × 2731 (4K)",
-    "format": "JPEG / PNG",
-    "fileSize": "~32MB"
-  },
-  {
-    "id": 5,
-    "title": "Autumn Leaves Drift",
-    "type": "video",
-    "category": "Koyo",
-    "price": 290,
-    "duration": "8s",
-    "tags": [
-      "loop",
-      "4K",
-      "autumn",
-      "orange"
-    ],
-    "image": "https://images.unsplash.com/photo-1508184964240-ee96bb9677a7?w=800&q=80",
-    "description": "Crimson and gold maple leaves spiraling in the cool autumn air of a traditional Japanese garden. Evokes the fleeting beauty of koyo season.",
-    "resolution": "3840 × 2160 (4K)",
-    "format": "MP4 / H.264",
-    "fileSize": "~140MB"
-  },
-  {
-    "id": 6,
-    "title": "Rainy Shibuya",
-    "type": "video",
-    "category": "Urban",
-    "price": 390,
-    "duration": "12s",
-    "tags": [
-      "loop",
-      "4K",
-      "rain",
-      "street"
-    ],
-    "image": "https://images.unsplash.com/photo-1542051841857-5f90071e7989?w=800&q=80",
-    "description": "The famous Shibuya crossing in a moody downpour. Umbrellas of every color, steaming food stalls, and the relentless pulse of the city.",
-    "resolution": "3840 × 2160 (4K)",
-    "format": "MP4 / H.264",
-    "fileSize": "~210MB"
-  },
-  {
-    "id": 7,
-    "title": "The Great Wave",
-    "type": "image",
-    "category": "Ukiyo-e",
-    "price": 290,
-    "tags": [
-      "4K",
-      "ukiyo-e",
-      "art",
-      "woodblock"
-    ],
-    "image": "https://images.unsplash.com/photo-1522383225653-ed111181a951?w=800&q=80",
-    "description": "Japanese woodblock print aesthetic, samurai in bamboo forest, dramatic composition, indigo and vermilion",
-    "resolution": "4096 × 2731 (4K)",
-    "format": "JPEG / PNG",
-    "fileSize": "~25MB"
-  },
-  {
-    "id": 8,
-    "title": "Fushimi Inari at Dawn",
-    "type": "image",
-    "category": "Kyoto",
-    "price": 190,
-    "tags": [
-      "4K",
-      "kyoto",
-      "temple",
-      "traditional"
-    ],
-    "image": "https://images.unsplash.com/photo-1522383225653-ed111181a951?w=800&q=80",
-    "description": "Geisha in elaborate kimono walking through Kyoto autumn garden, maple leaves falling, cinematic",
-    "resolution": "4096 × 2731 (4K)",
-    "format": "JPEG / PNG",
-    "fileSize": "~28MB"
-  },
-  {
-    "id": 9,
-    "title": "Golden Temple Reflection",
-    "type": "image",
-    "category": "Kyoto",
-    "price": 190,
-    "tags": [
-      "4K",
-      "kyoto",
-      "temple",
-      "traditional"
-    ],
-    "image": "https://images.unsplash.com/photo-1478436127897-769e1b3f0f36?w=800&q=80",
-    "description": "Gion district Kyoto at night, traditional machiya townhouses, paper lanterns, cobblestone streets glistening",
-    "resolution": "4096 × 2731 (4K)",
-    "format": "JPEG / PNG",
-    "fileSize": "~28MB"
-  },
-  {
     "id": 10,
-    "title": "Autumn Campaign",
+    "title": "Samurai's Tea Ceremony",
     "type": "image",
     "category": "Samurai",
-    "price": 290,
-    "tags": [
-      "4K",
-      "samurai",
-      "warrior",
-      "historical"
-    ],
+    "price": 780,
+    "tags": ["4K", "samurai", "warrior", "historical"],
     "image": "/generated/japan-samurai-1772148905827.jpg",
-    "description": "Samurai tea ceremony scene, seated warrior removing helmet, peaceful interior, paper screens",
+    "description": "Samurai in tea ceremony, seated warrior at rest in peaceful interior with paper screens and soft light.",
     "resolution": "4096 × 2731 (4K)",
     "format": "JPEG / PNG",
     "fileSize": "~35MB"
@@ -188,69 +17,49 @@
     "title": "Fuji at Dawn",
     "type": "image",
     "category": "Fuji",
-    "price": 190,
-    "tags": [
-      "4K",
-      "fuji",
-      "mountain",
-      "landscape"
-    ],
+    "price": 590,
+    "tags": ["4K", "fuji", "mountain", "landscape"],
     "image": "/generated/japan-fuji-1772149358660.jpg",
-    "description": "Traditional Japanese pagoda with Mount Fuji in background, cherry blossoms, perfect postcard composition",
+    "description": "Traditional Japanese pagoda with Mount Fuji rising in the background, framed by cherry blossoms in full bloom.",
     "resolution": "4096 × 2731 (4K)",
     "format": "JPEG / PNG",
     "fileSize": "~32MB"
   },
   {
     "id": 12,
-    "title": "Zen Garden Morning",
+    "title": "Arashiyama Bamboo Grove",
     "type": "image",
     "category": "Kyoto",
-    "price": 190,
-    "tags": [
-      "4K",
-      "kyoto",
-      "temple",
-      "traditional"
-    ],
+    "price": 490,
+    "tags": ["4K", "kyoto", "bamboo", "nature"],
     "image": "/generated/japan-kyoto-1772149361444.jpg",
-    "description": "Arashiyama bamboo grove in Kyoto, towering green stalks, dappled sunlight, peaceful and meditative",
+    "description": "Towering bamboo stalks of Arashiyama in Kyoto, dappled sunlight filtering through the canopy, deeply peaceful and meditative.",
     "resolution": "4096 × 2731 (4K)",
     "format": "JPEG / PNG",
     "fileSize": "~28MB"
   },
   {
     "id": 13,
-    "title": "Warrior's Meditation",
+    "title": "Warrior on Horseback",
     "type": "image",
     "category": "Samurai",
-    "price": 290,
-    "tags": [
-      "4K",
-      "samurai",
-      "warrior",
-      "historical"
-    ],
+    "price": 780,
+    "tags": ["4K", "samurai", "warrior", "historical"],
     "image": "/generated/japan-samurai-1772149364261.jpg",
-    "description": "Samurai warrior on horseback crossing a river in autumn, red maple forest, majestic and powerful",
+    "description": "Samurai warrior on horseback crossing a river in autumn, red maple forest backdrop, majestic and powerful composition.",
     "resolution": "4096 × 2731 (4K)",
     "format": "JPEG / PNG",
     "fileSize": "~35MB"
   },
   {
     "id": 14,
-    "title": "Merchant Quarter",
+    "title": "Edo Sumo Match",
     "type": "image",
     "category": "Edo",
-    "price": 190,
-    "tags": [
-      "4K",
-      "historical",
-      "edo",
-      "japan"
-    ],
+    "price": 490,
+    "tags": ["4K", "historical", "edo", "sumo"],
     "image": "/generated/japan-edo-1772149367058.jpg",
-    "description": "Edo period sumo wrestling match, crowd watching in traditional wooden arena, dramatic action pose",
+    "description": "Edo period sumo wrestling match inside a traditional wooden arena, crowd packed around the dohyo, dramatic action captured.",
     "resolution": "4096 × 2731 (4K)",
     "format": "JPEG / PNG",
     "fileSize": "~30MB"
@@ -260,105 +69,75 @@
     "title": "Fuji at Golden Hour",
     "type": "image",
     "category": "Fuji",
-    "price": 190,
-    "tags": [
-      "4K",
-      "fuji",
-      "mountain",
-      "landscape"
-    ],
+    "price": 590,
+    "tags": ["4K", "fuji", "mountain", "landscape"],
     "image": "/generated/japan-fuji-1772149369907.jpg",
-    "description": "Aerial view of Mount Fuji surrounded by autumn foliage, misty clouds at the base, breathtaking scale",
+    "description": "Aerial view of Mount Fuji surrounded by autumn foliage in peak color, misty clouds drifting at the base, breathtaking scale.",
     "resolution": "4096 × 2731 (4K)",
     "format": "JPEG / PNG",
     "fileSize": "~32MB"
   },
   {
     "id": 16,
-    "title": "Shinjuku Midnight",
+    "title": "Tokyo Skyline at Night",
     "type": "image",
     "category": "Night",
-    "price": 190,
-    "tags": [
-      "4K",
-      "night",
-      "neon",
-      "atmospheric"
-    ],
+    "price": 490,
+    "tags": ["4K", "night", "neon", "atmospheric"],
     "image": "/generated/japan-night-1772149372779.jpg",
-    "description": "Tokyo rooftop view at night, vast cityscape of lights stretching to horizon, Skytree glowing",
+    "description": "Tokyo rooftop view at night, a vast cityscape of lights stretching to the horizon, Tokyo Skytree glowing in the distance.",
     "resolution": "4096 × 2731 (4K)",
     "format": "JPEG / PNG",
     "fileSize": "~28MB"
   },
   {
     "id": 17,
-    "title": "Samurai's Path",
+    "title": "Edo Teahouse Morning",
     "type": "image",
     "category": "Edo",
-    "price": 190,
-    "tags": [
-      "4K",
-      "historical",
-      "edo",
-      "japan"
-    ],
+    "price": 590,
+    "tags": ["4K", "historical", "edo", "teahouse"],
     "image": "/generated/japan-edo-1772149373036.jpg",
-    "description": "Traditional Japanese teahouse in Edo era garden, tatami floors visible, bamboo fence, soft morning light",
+    "description": "A traditional Japanese teahouse set in an Edo era garden, tatami floors visible through open shoji, bamboo fence, soft morning light.",
     "resolution": "4096 × 2731 (4K)",
     "format": "JPEG / PNG",
     "fileSize": "~30MB"
   },
   {
     "id": 18,
-    "title": "Gion Night Walk",
+    "title": "Fushimi Inari at Dawn",
     "type": "image",
     "category": "Kyoto",
-    "price": 190,
-    "tags": [
-      "4K",
-      "kyoto",
-      "temple",
-      "traditional"
-    ],
+    "price": 590,
+    "tags": ["4K", "kyoto", "shrine", "torii"],
     "image": "/generated/japan-kyoto-1772149375925.jpg",
-    "description": "Fushimi Inari shrine at dawn, thousands of vermilion torii gates, morning mist, no people, ethereal atmosphere",
+    "description": "Thousands of vermilion torii gates at Fushimi Inari shrine at dawn, morning mist rising, no crowds, an ethereal and sacred atmosphere.",
     "resolution": "4096 × 2731 (4K)",
     "format": "JPEG / PNG",
     "fileSize": "~28MB"
   },
   {
     "id": 19,
-    "title": "Koi Pond Harmony",
+    "title": "Dragon of the Stormy Sea",
     "type": "image",
     "category": "Ukiyo-e",
-    "price": 290,
-    "tags": [
-      "4K",
-      "ukiyo-e",
-      "art",
-      "woodblock"
-    ],
+    "price": 780,
+    "tags": ["4K", "ukiyo-e", "art", "dragon"],
     "image": "/generated/japan-ukiyo-e-1772149378751.jpg",
-    "description": "Ukiyo-e style dragon emerging from stormy sea, waves crashing, bold lines and colors, Hiroshige inspired",
+    "description": "Ukiyo-e style dragon emerging from a stormy sea, waves crashing dramatically, bold lines and vivid colors in the tradition of Hiroshige.",
     "resolution": "4096 × 2731 (4K)",
     "format": "JPEG / PNG",
     "fileSize": "~25MB"
   },
   {
     "id": 20,
-    "title": "Bamboo Grove Silence",
+    "title": "Golden Pavilion Reflection",
     "type": "image",
     "category": "Kyoto",
-    "price": 190,
-    "tags": [
-      "4K",
-      "kyoto",
-      "temple",
-      "traditional"
-    ],
+    "price": 490,
+    "tags": ["4K", "kyoto", "temple", "reflection"],
     "image": "/generated/japan-kyoto-1772149381733.jpg",
-    "description": "Kinkaku-ji golden pavilion reflected in mirror-still pond, autumn maple trees, warm afternoon light",
+    "description": "Kinkaku-ji golden pavilion perfectly reflected in a mirror-still pond, surrounded by autumn maple trees in warm afternoon light.",
     "resolution": "4096 × 2731 (4K)",
     "format": "JPEG / PNG",
     "fileSize": "~28MB"

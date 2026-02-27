@@ -7,6 +7,9 @@ const stripe = new Stripe(process.env.STRIPE_SECRET_KEY!, {
   apiVersion: '2026-02-25.clover',
 })
 
+// 処理済み event.id を記録（再起動でリセットされる簡易版）
+const processedEvents = new Set<string>()
+
 export async function POST(req: NextRequest) {
   const body = await req.text()
   const sig = req.headers.get('stripe-signature')
@@ -23,6 +26,12 @@ export async function POST(req: NextRequest) {
     return NextResponse.json({ error: 'Invalid signature' }, { status: 400 })
   }
 
+  // 重複処理を防ぐ（同じ event.id は一度だけ処理）
+  if (processedEvents.has(event.id)) {
+    return NextResponse.json({ received: true })
+  }
+  processedEvents.add(event.id)
+
   if (event.type === 'checkout.session.completed') {
     const session = event.data.object as Stripe.Checkout.Session
     const assetId = Number(session.metadata?.assetId)
@@ -32,7 +41,7 @@ export async function POST(req: NextRequest) {
     console.log(`✅ 支払い完了: session=${session.id} asset=${assetId} email=${email}`)
 
     if (asset && email) {
-      const appUrl = process.env.NEXT_PUBLIC_APP_URL ?? 'http://localhost:3002'
+      const appUrl = process.env.APP_URL ?? 'http://localhost:3000'
       const downloadUrl = `${appUrl}/success?session_id=${session.id}&asset_id=${assetId}`
 
       try {
