@@ -526,5 +526,95 @@
     "resolution": "576 × 1024 (9:16)",
     "format": "JPEG / PNG",
     "fileSize": "~8MB"
+  },
+  {
+    "id": 32,
+    "title": "Blossom Shrine Path",
+    "type": "image",
+    "category": "Shrine",
+    "price": 190,
+    "tags": [
+      "9:16",
+      "shrine",
+      "spiritual",
+      "traditional"
+    ],
+    "image": "/generated/japan-shrine-1772293262666.jpg",
+    "description": "Traditional Japanese matsuri portable shrine (mikoshi) procession, gilded phoenix on top, bearers in white happi coats, crowd lining the street, festive atmosphere, no text",
+    "resolution": "576 × 1024 (9:16)",
+    "format": "JPEG / PNG",
+    "fileSize": "~8MB"
+  },
+  {
+    "id": 33,
+    "title": "Akihabara Neon Night",
+    "type": "image",
+    "category": "Shibuya",
+    "price": 190,
+    "tags": [
+      "9:16",
+      "shibuya",
+      "modern",
+      "tokyo"
+    ],
+    "image": "/generated/japan-shibuya-1772293269047.jpg",
+    "description": "Harajuku Takeshita Street in golden hour, colorful youth fashion, vertical perspective down narrow pedestrian street lined with small boutiques, no readable signs",
+    "resolution": "576 × 1024 (9:16)",
+    "format": "JPEG / PNG",
+    "fileSize": "~8MB"
+  },
+  {
+    "id": 34,
+    "title": "Kegon Falls",
+    "type": "image",
+    "category": "Nature",
+    "price": 190,
+    "tags": [
+      "9:16",
+      "nature",
+      "landscape",
+      "japan"
+    ],
+    "image": "/generated/japan-nature-1772293275429.jpg",
+    "description": "Nikko Kegon waterfall plunging 97 meters into gorge below, lush green summer forest framing the cascade, mist rising, dramatic vertical composition, no text",
+    "resolution": "576 × 1024 (9:16)",
+    "format": "JPEG / PNG",
+    "fileSize": "~8MB"
+  },
+  {
+    "id": 35,
+    "title": "Shibuya Sky View",
+    "type": "image",
+    "category": "Shibuya",
+    "price": 190,
+    "tags": [
+      "9:16",
+      "shibuya",
+      "modern",
+      "tokyo"
+    ],
+    "image": "/generated/japan-shibuya-1772293275546.jpg",
+    "description": "Odaiba waterfront promenade at night, Rainbow Bridge illuminated in color, reflections on Tokyo Bay below, Ferris wheel glowing, vertical composition, no text",
+    "resolution": "576 × 1024 (9:16)",
+    "format": "JPEG / PNG",
+    "fileSize": "~8MB"
+  },
+  {
+    "id": 36,
+    "title": "Summer Festival Glow",
+    "type": "image",
+    "category": "Night",
+    "price": 190,
+    "tags": [
+      "9:16",
+      "night",
+      "neon",
+      "atmospheric"
+    ],
+    "image": "/generated/japan-night-1772293279297.jpg",
+    "description": "Kyoto lantern festival at night, hundreds of washi paper lanterns floating on dark river, temples silhouetted behind, magical vertical reflection in water, no text",
+    "resolution": "576 × 1024 (9:16)",
+    "format": "JPEG / PNG",
+    "fileSize": "~8MB"
   }
 ]
