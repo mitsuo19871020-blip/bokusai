@@ -1,0 +1,74 @@
+[
+  {
+    "id": "discipline-samurai-01",
+    "title": "Discipline — Samurai Short Set 01",
+    "theme": "Discipline",
+    "kanji": "律",
+    "category": "Samurai",
+    "price": 2900,
+    "scene": "For AI narrated videos about discipline, self-control, and quiet strength. Drop into any motivational Short or AI narration — opener, transition, or closing shot.",
+    "usecases": ["AI Narration", "YouTube Shorts", "Self-Help Content", "Motivation"],
+    "coverImage": "https://images.unsplash.com/photo-1542051841857-5f90071e7989?w=800&q=80",
+    "imageCount": 10,
+    "images": [
+      { "slot": 1, "lighting": "dim",    "margin": "tight", "label": "Scene A · Dim",    "url": "https://images.unsplash.com/photo-1542051841857-5f90071e7989?w=600&q=70" },
+      { "slot": 2, "lighting": "normal", "margin": "tight", "label": "Scene A · Normal", "url": "https://images.unsplash.com/photo-1542051841857-5f90071e7989?w=600&q=80" },
+      { "slot": 3, "lighting": "bright", "margin": "tight", "label": "Scene A · Golden", "url": "https://images.unsplash.com/photo-1542051841857-5f90071e7989?w=600&q=90" },
+      { "slot": 4, "lighting": "dim",    "margin": "tight", "label": "Scene B · Dim",    "url": "https://images.unsplash.com/photo-1508184964240-ee96bb9677a7?w=600&q=70" },
+      { "slot": 5, "lighting": "normal", "margin": "tight", "label": "Scene B · Normal", "url": "https://images.unsplash.com/photo-1508184964240-ee96bb9677a7?w=600&q=80" },
+      { "slot": 6, "lighting": "bright", "margin": "tight", "label": "Scene B · Golden", "url": "https://images.unsplash.com/photo-1508184964240-ee96bb9677a7?w=600&q=90" },
+      { "slot": 7, "lighting": "dim",    "margin": "tight", "label": "Scene C · Dim",    "url": "https://images.unsplash.com/photo-1478436127897-769e1b3f0f36?w=600&q=70" },
+      { "slot": 8, "lighting": "normal", "margin": "tight", "label": "Scene C · Normal", "url": "https://images.unsplash.com/photo-1478436127897-769e1b3f0f36?w=600&q=80" },
+      { "slot": 9, "lighting": "bright", "margin": "tight", "label": "Scene C · Golden", "url": "https://images.unsplash.com/photo-1478436127897-769e1b3f0f36?w=600&q=90" },
+      { "slot": 10, "lighting": "normal","margin": "space", "label": "Scene A · Space",  "url": "https://images.unsplash.com/photo-1542051841857-5f90071e7989?w=600&q=75" }
+    ]
+  },
+  {
+    "id": "silence-shrine-01",
+    "title": "Silence — Shrine Short Set 01",
+    "theme": "Silence",
+    "kanji": "静",
+    "category": "Shrine",
+    "price": 2900,
+    "scene": "For AI narrated videos about mindfulness, inner peace, and letting go. The stillness speaks louder than words — perfect for slow-paced motivational Shorts.",
+    "usecases": ["AI Narration", "Mindfulness Content", "TikTok", "Instagram Reels"],
+    "coverImage": "https://images.unsplash.com/photo-1478436127897-769e1b3f0f36?w=800&q=80",
+    "imageCount": 10,
+    "images": [
+      { "slot": 1, "lighting": "dim",    "margin": "tight", "label": "Scene A · Dim",    "url": "https://images.unsplash.com/photo-1478436127897-769e1b3f0f36?w=600&q=70" },
+      { "slot": 2, "lighting": "normal", "margin": "tight", "label": "Scene A · Normal", "url": "https://images.unsplash.com/photo-1478436127897-769e1b3f0f36?w=600&q=80" },
+      { "slot": 3, "lighting": "bright", "margin": "tight", "label": "Scene A · Golden", "url": "https://images.unsplash.com/photo-1478436127897-769e1b3f0f36?w=600&q=90" },
+      { "slot": 4, "lighting": "dim",    "margin": "tight", "label": "Scene B · Dim",    "url": "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?w=600&q=70" },
+      { "slot": 5, "lighting": "normal", "margin": "tight", "label": "Scene B · Normal", "url": "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?w=600&q=80" },
+      { "slot": 6, "lighting": "bright", "margin": "tight", "label": "Scene B · Golden", "url": "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?w=600&q=90" },
+      { "slot": 7, "lighting": "dim",    "margin": "tight", "label": "Scene C · Dim",    "url": "https://images.unsplash.com/photo-1522383225653-ed111181a951?w=600&q=70" },
+      { "slot": 8, "lighting": "normal", "margin": "tight", "label": "Scene C · Normal", "url": "https://images.unsplash.com/photo-1522383225653-ed111181a951?w=600&q=80" },
+      { "slot": 9, "lighting": "bright", "margin": "tight", "label": "Scene C · Golden", "url": "https://images.unsplash.com/photo-1522383225653-ed111181a951?w=600&q=90" },
+      { "slot": 10, "lighting": "normal","margin": "space", "label": "Scene A · Space",  "url": "https://images.unsplash.com/photo-1478436127897-769e1b3f0f36?w=600&q=75" }
+    ]
+  },
+  {
+    "id": "legacy-edo-01",
+    "title": "Legacy — Edo Short Set 01",
+    "theme": "Legacy",
+    "kanji": "継",
+    "category": "Edo",
+    "price": 2900,
+    "scene": "For AI narrated videos about legacy, time passing, and what we leave behind. Slow, poetic visuals that make viewers stop scrolling and think.",
+    "usecases": ["AI Narration", "History Content", "YouTube Shorts", "Documentary"],
+    "coverImage": "https://images.unsplash.com/photo-1528360983277-13d401cdc186?w=800&q=80",
+    "imageCount": 10,
+    "images": [
+      { "slot": 1, "lighting": "dim",    "margin": "tight", "label": "Scene A · Dim",    "url": "https://images.unsplash.com/photo-1528360983277-13d401cdc186?w=600&q=70" },
+      { "slot": 2, "lighting": "normal", "margin": "tight", "label": "Scene A · Normal", "url": "https://images.unsplash.com/photo-1528360983277-13d401cdc186?w=600&q=80" },
+      { "slot": 3, "lighting": "bright", "margin": "tight", "label": "Scene A · Golden", "url": "https://images.unsplash.com/photo-1528360983277-13d401cdc186?w=600&q=90" },
+      { "slot": 4, "lighting": "dim",    "margin": "tight", "label": "Scene B · Dim",    "url": "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?w=600&q=70" },
+      { "slot": 5, "lighting": "normal", "margin": "tight", "label": "Scene B · Normal", "url": "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?w=600&q=80" },
+      { "slot": 6, "lighting": "bright", "margin": "tight", "label": "Scene B · Golden", "url": "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?w=600&q=90" },
+      { "slot": 7, "lighting": "dim",    "margin": "tight", "label": "Scene C · Dim",    "url": "https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?w=600&q=70" },
+      { "slot": 8, "lighting": "normal", "margin": "tight", "label": "Scene C · Normal", "url": "https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?w=600&q=80" },
+      { "slot": 9, "lighting": "bright", "margin": "tight", "label": "Scene C · Golden", "url": "https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?w=600&q=90" },
+      { "slot": 10, "lighting": "normal","margin": "space", "label": "Scene A · Space",  "url": "https://images.unsplash.com/photo-1528360983277-13d401cdc186?w=600&q=75" }
+    ]
+  }
+]

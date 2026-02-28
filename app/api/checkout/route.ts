@@ -2,6 +2,7 @@ import { NextRequest, NextResponse } from 'next/server'
 import Stripe from 'stripe'
 import { assets } from '@/lib/assets'
 import { packs } from '@/lib/packs'
+import { sets } from '@/lib/sets'
 
 const stripe = new Stripe(process.env.STRIPE_SECRET_KEY!, {
   apiVersion: '2026-02-25.clover',
@@ -32,6 +33,45 @@ export async function POST(req: NextRequest) {
 
   const appUrl = process.env.APP_URL ?? 'http://localhost:3000'
   const body = await req.json()
+
+  // ── Short Set checkout ──
+  if (body.setId) {
+    const set = sets.find((s) => s.id === body.setId)
+    if (!set) {
+      return NextResponse.json({ error: 'Set not found' }, { status: 404 })
+    }
+
+    const imageUrl = set.coverImage.startsWith('http') ? set.coverImage : undefined
+
+    try {
+      const session = await stripe.checkout.sessions.create({
+        mode: 'payment',
+        metadata: { setId: set.id },
+        line_items: [
+          {
+            price_data: {
+              currency: 'usd',
+              product_data: {
+                name: set.title,
+                description: `${set.imageCount} images · ${set.theme} · 3 lighting variants`,
+                ...(imageUrl ? { images: [imageUrl] } : {}),
+              },
+              unit_amount: set.price,
+            },
+            quantity: 1,
+          },
+        ],
+        success_url: `${appUrl}/success?session_id={CHECKOUT_SESSION_ID}&set_id=${set.id}`,
+        cancel_url: `${appUrl}/set/${set.id}`,
+      })
+
+      return NextResponse.json({ url: session.url })
+    } catch (err) {
+      console.error('Stripe error:', err)
+      const message = err instanceof Error ? err.message : 'Checkout failed'
+      return NextResponse.json({ error: message }, { status: 500 })
+    }
+  }
 
   // ── Pack checkout ──
   if (body.packId) {
