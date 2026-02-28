@@ -2,23 +2,20 @@
   {
     "id": 10,
     "title": "Samurai's Tea Ceremony",
-    "type": "video",
+    "type": "image",
     "category": "Samurai",
     "price": 780,
     "tags": [
-      "5sec",
+      "4K",
       "samurai",
       "warrior",
-      "historical",
-      "video"
+      "historical"
     ],
     "image": "/generated/japan-samurai-1772148905827.jpg",
     "description": "Samurai in tea ceremony, seated warrior at rest in peaceful interior with paper screens and soft light.",
     "resolution": "4096 × 2731 (4K)",
-    "format": "MP4 (H.264)",
-    "fileSize": "~0.4MB",
-    "video": "/videos/video-10.mp4",
-    "duration": "5 sec"
+    "format": "JPEG / PNG",
+    "fileSize": "~32MB"
   },
   {
     "id": 11,
