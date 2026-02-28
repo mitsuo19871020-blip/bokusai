@@ -22,6 +22,9 @@ export default function Navbar() {
           <Link href="/browse" className="text-white/70 hover:text-white text-sm tracking-wide transition-colors">
             Browse
           </Link>
+          <Link href="/packs" className="text-white/70 hover:text-white text-sm tracking-wide transition-colors">
+            Packs
+          </Link>
           <Link href="/pricing" className="text-white/70 hover:text-white text-sm tracking-wide transition-colors">
             Pricing
           </Link>
@@ -55,6 +58,7 @@ export default function Navbar() {
       {menuOpen && (
         <div className="md:hidden bg-black/95 border-t border-white/10 px-6 py-4 flex flex-col gap-4">
           <Link href="/browse" className="text-white/70 hover:text-white text-sm tracking-wide">Browse</Link>
+          <Link href="/packs" className="text-white/70 hover:text-white text-sm tracking-wide">Packs</Link>
           <Link href="/pricing" className="text-white/70 hover:text-white text-sm tracking-wide">Pricing</Link>
           <Link href="/about" className="text-white/70 hover:text-white text-sm tracking-wide">About</Link>
           <Link href="/browse" className="bg-red-600 text-white text-sm px-5 py-2 rounded text-center">

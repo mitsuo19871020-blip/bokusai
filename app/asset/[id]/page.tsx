@@ -94,6 +94,17 @@ export default async function AssetPage({ params }: Props) {
               </div>
             </div>
 
+            {/* Use Cases */}
+            {asset.usecases && asset.usecases.length > 0 && (
+              <div className="flex flex-wrap gap-2">
+                {asset.usecases.map((uc) => (
+                  <span key={uc} className="text-xs px-3 py-1.5 rounded-full bg-white/10 border border-white/20 text-white/80 font-medium tracking-wide">
+                    ▶ {uc}
+                  </span>
+                ))}
+              </div>
+            )}
+
             {/* Tags */}
             <div className="flex flex-wrap gap-2">
               {asset.tags.map((tag) => (
@@ -102,6 +113,14 @@ export default async function AssetPage({ params }: Props) {
                 </span>
               ))}
             </div>
+
+            {/* Scene copy */}
+            {asset.scene && (
+              <div className="relative border border-red-900/40 bg-red-950/20 rounded-xl px-6 py-5">
+                <span className="absolute -top-3 left-5 bg-black px-2 text-xs text-red-500 tracking-widest uppercase font-semibold">Scene</span>
+                <p className="text-white/85 text-base leading-relaxed italic">&ldquo;{asset.scene}&rdquo;</p>
+              </div>
+            )}
 
             {/* Description */}
             <div className="bg-zinc-900/50 border border-white/5 rounded-xl p-6 space-y-4">
@@ -157,7 +176,7 @@ export default async function AssetPage({ params }: Props) {
 
               {/* Price */}
               <div className="flex items-end gap-2">
-                <span className="text-4xl font-bold text-white">¥{asset.price.toLocaleString()}</span>
+                <span className="text-4xl font-bold text-white">${asset.price / 100}</span>
                 <span className="text-white/30 text-sm mb-1">one-time</span>
               </div>
 

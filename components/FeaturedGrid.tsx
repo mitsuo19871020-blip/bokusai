@@ -105,7 +105,7 @@ export default function FeaturedGrid() {
                     <p className="text-white/40 text-xs mt-0.5">{asset.category}</p>
                   </div>
                   <div className="text-right shrink-0">
-                    <div className="text-white font-bold text-sm">¥{asset.price}</div>
+                    <div className="text-white font-bold text-sm">${asset.price / 100}</div>
                     <div className="text-white/30 text-xs">one-time</div>
                   </div>
                 </div>

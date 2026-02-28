@@ -11,6 +11,8 @@ export type Asset = {
   image: string
   video?: string
   description: string
+  scene?: string
+  usecases?: string[]
   resolution: string
   format: string
   fileSize: string

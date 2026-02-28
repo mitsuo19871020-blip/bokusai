@@ -4,7 +4,7 @@
     "title": "Samurai's Tea Ceremony",
     "type": "image",
     "category": "Samurai",
-    "price": 780,
+    "price": 800,
     "tags": [
       "4K",
       "samurai",
@@ -13,6 +13,12 @@
     ],
     "image": "/generated/japan-samurai-1772148905827.jpg",
     "description": "Samurai in tea ceremony, seated warrior at rest in peaceful interior with paper screens and soft light.",
+    "scene": "A warrior at peace, blade set aside — perfect for AI narration on discipline and inner strength.",
+    "usecases": [
+      "AI Narration",
+      "History",
+      "YouTube Shorts"
+    ],
     "resolution": "4096 × 2731 (4K)",
     "format": "JPEG / PNG",
     "fileSize": "~32MB"
@@ -22,7 +28,7 @@
     "title": "Fuji at Dawn",
     "type": "image",
     "category": "Fuji",
-    "price": 590,
+    "price": 600,
     "tags": [
       "4K",
       "fuji",
@@ -31,6 +37,12 @@
     ],
     "image": "/generated/japan-fuji-1772149358660.jpg",
     "description": "Traditional Japanese pagoda with Mount Fuji rising in the background, framed by cherry blossoms in full bloom.",
+    "scene": "Where sky meets sacred peak — ideal for meditation, travel, and Japanese culture content.",
+    "usecases": [
+      "Travel Content",
+      "B-Roll",
+      "AI Narration"
+    ],
     "resolution": "4096 × 2731 (4K)",
     "format": "JPEG / PNG",
     "fileSize": "~32MB"
@@ -40,7 +52,7 @@
     "title": "Arashiyama Bamboo Grove",
     "type": "image",
     "category": "Kyoto",
-    "price": 490,
+    "price": 500,
     "tags": [
       "4K",
       "kyoto",
@@ -49,6 +61,12 @@
     ],
     "image": "/generated/japan-kyoto-1772149361444.jpg",
     "description": "Towering bamboo stalks of Arashiyama in Kyoto, dappled sunlight filtering through the canopy, deeply peaceful and meditative.",
+    "scene": "Silence between the stalks — made for slow-paced storytelling and zen-themed Shorts.",
+    "usecases": [
+      "Meditation",
+      "B-Roll",
+      "YouTube Shorts"
+    ],
     "resolution": "4096 × 2731 (4K)",
     "format": "JPEG / PNG",
     "fileSize": "~28MB"
@@ -58,7 +76,7 @@
     "title": "Warrior on Horseback",
     "type": "image",
     "category": "Samurai",
-    "price": 780,
+    "price": 800,
     "tags": [
       "4K",
       "samurai",
@@ -67,6 +85,12 @@
     ],
     "image": "/generated/japan-samurai-1772149364261.jpg",
     "description": "Samurai warrior on horseback crossing a river in autumn, red maple forest backdrop, majestic and powerful composition.",
+    "scene": "Power in motion through autumn fire — built for epic battle narration and historical drama.",
+    "usecases": [
+      "YouTube Shorts",
+      "TikTok",
+      "AI Narration"
+    ],
     "resolution": "4096 × 2731 (4K)",
     "format": "JPEG / PNG",
     "fileSize": "~35MB"
@@ -76,7 +100,7 @@
     "title": "Edo Sumo Match",
     "type": "image",
     "category": "Edo",
-    "price": 490,
+    "price": 500,
     "tags": [
       "4K",
       "historical",
@@ -85,6 +109,12 @@
     ],
     "image": "/generated/japan-edo-1772149367058.jpg",
     "description": "Edo period sumo wrestling match inside a traditional wooden arena, crowd packed around the dohyo, dramatic action captured.",
+    "scene": "The clash of giants in old Edo — ready for sports history and cultural storytelling.",
+    "usecases": [
+      "History",
+      "YouTube Shorts",
+      "AI Narration"
+    ],
     "resolution": "4096 × 2731 (4K)",
     "format": "JPEG / PNG",
     "fileSize": "~30MB"
@@ -94,7 +124,7 @@
     "title": "Fuji at Golden Hour",
     "type": "image",
     "category": "Fuji",
-    "price": 590,
+    "price": 600,
     "tags": [
       "4K",
       "fuji",
@@ -103,6 +133,12 @@
     ],
     "image": "/generated/japan-fuji-1772149369907.jpg",
     "description": "Aerial view of Mount Fuji surrounded by autumn foliage in peak color, misty clouds drifting at the base, breathtaking scale.",
+    "scene": "Above the clouds, time stands still — perfect for cinematic travel and spiritual content.",
+    "usecases": [
+      "Travel Content",
+      "B-Roll",
+      "TikTok"
+    ],
     "resolution": "4096 × 2731 (4K)",
     "format": "JPEG / PNG",
     "fileSize": "~32MB"
@@ -112,7 +148,7 @@
     "title": "Tokyo Skyline at Night",
     "type": "image",
     "category": "Night",
-    "price": 490,
+    "price": 500,
     "tags": [
       "4K",
       "night",
@@ -121,6 +157,12 @@
     ],
     "image": "/generated/japan-night-1772149372779.jpg",
     "description": "Tokyo rooftop view at night, a vast cityscape of lights stretching to the horizon, Tokyo Skytree glowing in the distance.",
+    "scene": "10 million lights and zero sleep — ideal for urban lifestyle and Japan city-guide Shorts.",
+    "usecases": [
+      "TikTok",
+      "YouTube Shorts",
+      "B-Roll"
+    ],
     "resolution": "4096 × 2731 (4K)",
     "format": "JPEG / PNG",
     "fileSize": "~28MB"
@@ -130,7 +172,7 @@
     "title": "Edo Teahouse Morning",
     "type": "image",
     "category": "Edo",
-    "price": 590,
+    "price": 600,
     "tags": [
       "4K",
       "historical",
@@ -139,6 +181,12 @@
     ],
     "image": "/generated/japan-edo-1772149373036.jpg",
     "description": "A traditional Japanese teahouse set in an Edo era garden, tatami floors visible through open shoji, bamboo fence, soft morning light.",
+    "scene": "Soft light through shoji screens — crafted for calm narration on Japanese tradition and daily life.",
+    "usecases": [
+      "Meditation",
+      "AI Narration",
+      "B-Roll"
+    ],
     "resolution": "4096 × 2731 (4K)",
     "format": "JPEG / PNG",
     "fileSize": "~30MB"
@@ -148,7 +196,7 @@
     "title": "Fushimi Inari at Dawn",
     "type": "image",
     "category": "Kyoto",
-    "price": 590,
+    "price": 600,
     "tags": [
       "4K",
       "kyoto",
@@ -157,6 +205,12 @@
     ],
     "image": "/generated/japan-kyoto-1772149375925.jpg",
     "description": "Thousands of vermilion torii gates at Fushimi Inari shrine at dawn, morning mist rising, no crowds, an ethereal and sacred atmosphere.",
+    "scene": "A thousand gates, no crowds — made for travel Shorts and spiritual journey narratives.",
+    "usecases": [
+      "Travel Content",
+      "YouTube Shorts",
+      "AI Narration"
+    ],
     "resolution": "4096 × 2731 (4K)",
     "format": "JPEG / PNG",
     "fileSize": "~28MB"
@@ -166,7 +220,7 @@
     "title": "Dragon of the Stormy Sea",
     "type": "image",
     "category": "Ukiyo-e",
-    "price": 780,
+    "price": 800,
     "tags": [
       "4K",
       "ukiyo-e",
@@ -175,6 +229,12 @@
     ],
     "image": "/generated/japan-ukiyo-e-1772149378751.jpg",
     "description": "Ukiyo-e style dragon emerging from a stormy sea, waves crashing dramatically, bold lines and vivid colors in the tradition of Hiroshige.",
+    "scene": "The storm answers to no one — built for mythology, power, and AI storytelling about the force of nature.",
+    "usecases": [
+      "YouTube Shorts",
+      "TikTok",
+      "AI Narration"
+    ],
     "resolution": "4096 × 2731 (4K)",
     "format": "JPEG / PNG",
     "fileSize": "~25MB"
@@ -184,7 +244,7 @@
     "title": "Golden Pavilion Reflection",
     "type": "image",
     "category": "Kyoto",
-    "price": 490,
+    "price": 500,
     "tags": [
       "4K",
       "kyoto",
@@ -193,6 +253,12 @@
     ],
     "image": "/generated/japan-kyoto-1772149381733.jpg",
     "description": "Kinkaku-ji golden pavilion perfectly reflected in a mirror-still pond, surrounded by autumn maple trees in warm afternoon light.",
+    "scene": "Gold on still water — perfect for beauty, aesthetics, and Japanese culture deep-dives.",
+    "usecases": [
+      "Travel Content",
+      "B-Roll",
+      "Meditation"
+    ],
     "resolution": "4096 × 2731 (4K)",
     "format": "JPEG / PNG",
     "fileSize": "~28MB"
@@ -202,7 +268,7 @@
     "title": "Geisha in Spring Garden",
     "type": "image",
     "category": "Ukiyo-e",
-    "price": 290,
+    "price": 300,
     "tags": [
       "4K",
       "ukiyo-e",
@@ -211,6 +277,12 @@
     ],
     "image": "/generated/japan-ukiyo-e-1772199335599.jpg",
     "description": "Ukiyo-e style Mount Fuji with seven travelers on mountain path, stylized clouds, classic composition",
+    "scene": "Seven travelers on the eternal road — ideal for Japan history and classical art narration.",
+    "usecases": [
+      "AI Narration",
+      "History",
+      "YouTube Shorts"
+    ],
     "resolution": "4096 × 2731 (4K)",
     "format": "JPEG / PNG",
     "fileSize": "~25MB"
@@ -220,7 +292,7 @@
     "title": "Samurai's Path",
     "type": "image",
     "category": "Edo",
-    "price": 190,
+    "price": 200,
     "tags": [
       "4K",
       "historical",
@@ -229,6 +301,12 @@
     ],
     "image": "/generated/japan-edo-1772199338723.jpg",
     "description": "Edo era riverside at twilight, wooden merchant boats moored along a calm canal, weeping willows, stone lanterns, no signs, painterly light",
+    "scene": "Twilight on the canal — made for nostalgic Japan Shorts and cinematic atmosphere reels.",
+    "usecases": [
+      "B-Roll",
+      "AI Narration",
+      "YouTube Shorts"
+    ],
     "resolution": "4096 × 2731 (4K)",
     "format": "JPEG / PNG",
     "fileSize": "~30MB"
@@ -238,7 +316,7 @@
     "title": "Zen Garden Morning",
     "type": "image",
     "category": "Kyoto",
-    "price": 190,
+    "price": 200,
     "tags": [
       "4K",
       "kyoto",
@@ -247,6 +325,12 @@
     ],
     "image": "/generated/japan-kyoto-1772199341707.jpg",
     "description": "Kyoto zen temple raked gravel garden, moss and stones, minimalist composition, morning light",
+    "scene": "Every stone has a purpose — perfect for mindfulness, productivity, and zen-focused content.",
+    "usecases": [
+      "Meditation",
+      "B-Roll",
+      "AI Narration"
+    ],
     "resolution": "4096 × 2731 (4K)",
     "format": "JPEG / PNG",
     "fileSize": "~28MB"
@@ -256,7 +340,7 @@
     "title": "Castle Gate at Dawn",
     "type": "image",
     "category": "Edo",
-    "price": 190,
+    "price": 200,
     "tags": [
       "4K",
       "historical",
@@ -265,6 +349,12 @@
     ],
     "image": "/generated/japan-edo-1772200936015.jpg",
     "description": "Ancient Edo castle gates at sunrise, mist over the moat, pine trees silhouettes, majestic and serene, no text",
+    "scene": "Where empires began at sunrise — built for Japanese history narration and dramatic scene-setting.",
+    "usecases": [
+      "History",
+      "YouTube Shorts",
+      "AI Narration"
+    ],
     "resolution": "4096 × 2731 (4K)",
     "format": "JPEG / PNG",
     "fileSize": "~30MB"
@@ -274,7 +364,7 @@
     "title": "The Great Wave",
     "type": "image",
     "category": "Ukiyo-e",
-    "price": 290,
+    "price": 300,
     "tags": [
       "4K",
       "ukiyo-e",
@@ -283,6 +373,12 @@
     ],
     "image": "/generated/japan-ukiyo-e-1772200939024.jpg",
     "description": "Traditional ukiyo-e crane flying over pine trees and ocean, sunrise, gold and red palette",
+    "scene": "Ancient art reborn in gold and crimson — ideal for culture, art history, and Japan aesthetics Shorts.",
+    "usecases": [
+      "AI Narration",
+      "YouTube Shorts",
+      "TikTok"
+    ],
     "resolution": "4096 × 2731 (4K)",
     "format": "JPEG / PNG",
     "fileSize": "~25MB"
@@ -292,7 +388,7 @@
     "title": "Akihabara Glow",
     "type": "image",
     "category": "Shibuya",
-    "price": 190,
+    "price": 200,
     "tags": [
       "4K",
       "shibuya",
@@ -301,6 +397,12 @@
     ],
     "image": "/generated/japan-shibuya-1772200941937.jpg",
     "description": "Akihabara electric town at night, glowing LED signs and screens, futuristic urban landscape, no legible text",
+    "scene": "The future runs on neon — perfect for tech culture, anime, and modern Japan content.",
+    "usecases": [
+      "TikTok",
+      "YouTube Shorts",
+      "B-Roll"
+    ],
     "resolution": "4096 × 2731 (4K)",
     "format": "JPEG / PNG",
     "fileSize": "~30MB"
@@ -310,7 +412,7 @@
     "title": "Mountain Onsen Dawn",
     "type": "image",
     "category": "Nature",
-    "price": 190,
+    "price": 200,
     "tags": [
       "4K",
       "nature",
@@ -319,6 +421,12 @@
     ],
     "image": "/generated/japan-nature-1772200945090.jpg",
     "description": "Japanese countryside rice paddy fields in summer, terraced hillside, rural village, golden afternoon light",
+    "scene": "Where the land feeds the soul — made for rural Japan, travel vlogs, and peaceful narration.",
+    "usecases": [
+      "Travel Content",
+      "B-Roll",
+      "Meditation"
+    ],
     "resolution": "4096 × 2731 (4K)",
     "format": "JPEG / PNG",
     "fileSize": "~32MB"
@@ -328,7 +436,7 @@
     "title": "Shibuya Crossing Night",
     "type": "image",
     "category": "Shibuya",
-    "price": 190,
+    "price": 200,
     "tags": [
       "4K",
       "shibuya",
@@ -337,6 +445,12 @@
     ],
     "image": "/generated/japan-shibuya-1772200948000.jpg",
     "description": "Akihabara electric town at night, glowing LED signs and screens, futuristic urban landscape, no legible text",
+    "scene": "The city that never blinks — built for urban energy and Japan nightlife Shorts.",
+    "usecases": [
+      "TikTok",
+      "YouTube Shorts",
+      "B-Roll"
+    ],
     "resolution": "4096 × 2731 (4K)",
     "format": "JPEG / PNG",
     "fileSize": "~30MB"
@@ -346,7 +460,7 @@
     "title": "Pagoda and Mountain",
     "type": "image",
     "category": "Fuji",
-    "price": 190,
+    "price": 200,
     "tags": [
       "4K",
       "fuji",
@@ -355,6 +469,12 @@
     ],
     "image": "/generated/japan-fuji-1772285160297.jpg",
     "description": "Sunrise over Mount Fuji from high altitude, sea of clouds below, orange and purple sky",
+    "scene": "Ancient spirit in vertical frame — ready for YouTube Shorts and TikTok storytelling about timeless Japan.",
+    "usecases": [
+      "YouTube Shorts",
+      "TikTok",
+      "AI Narration"
+    ],
     "resolution": "576 × 1024 (9:16)",
     "format": "JPEG / PNG",
     "fileSize": "~8MB"
@@ -364,7 +484,7 @@
     "title": "Sacred Peak in Winter",
     "type": "image",
     "category": "Fuji",
-    "price": 190,
+    "price": 200,
     "tags": [
       "4K",
       "fuji",
@@ -373,6 +493,12 @@
     ],
     "image": "/generated/japan-fuji-1772285162329.jpg",
     "description": "Mount Fuji at golden hour, perfect reflection in Lake Kawaguchi, cherry blossoms in foreground, iconic Japan",
+    "scene": "Fuji in gold, mirrored in stillness — perfect for iconic Japan visuals and seasonal storytelling.",
+    "usecases": [
+      "YouTube Shorts",
+      "TikTok",
+      "Travel Content"
+    ],
     "resolution": "576 × 1024 (9:16)",
     "format": "JPEG / PNG",
     "fileSize": "~8MB"
@@ -382,7 +508,7 @@
     "title": "Autumn Campaign",
     "type": "image",
     "category": "Samurai",
-    "price": 290,
+    "price": 300,
     "tags": [
       "4K",
       "samurai",
@@ -391,6 +517,12 @@
     ],
     "image": "/generated/japan-samurai-1772285164023.jpg",
     "description": "Two samurai duel in a bamboo forest, dramatic action, motion blur, cherry blossoms falling",
+    "scene": "Two blades, one forest — built for drama, action narration, and historical battle content.",
+    "usecases": [
+      "YouTube Shorts",
+      "TikTok",
+      "AI Narration"
+    ],
     "resolution": "576 × 1024 (9:16)",
     "format": "JPEG / PNG",
     "fileSize": "~8MB"

@@ -1,0 +1,67 @@
+[
+  {
+    "id": "samurai",
+    "title": "Samurai Pack",
+    "tagline": "Discipline. Honor. Power.",
+    "scene": "Warriors in stillness and motion — 3 scenes built for AI storytelling about discipline, legacy, and honor.",
+    "kanji": "侍",
+    "assetIds": [10, 13, 31],
+    "price": 1400,
+    "originalPrice": 1900,
+    "coverImage": "/generated/japan-samurai-1772148905827.jpg",
+    "gradient": "from-slate-900 to-gray-800",
+    "usecases": ["YouTube Shorts", "AI Narration", "History"]
+  },
+  {
+    "id": "kyoto",
+    "title": "Kyoto Pack",
+    "tagline": "Sacred. Still. Eternal.",
+    "scene": "Bamboo groves, shrine gates, and golden pavilions — 4 scenes made for travel and spiritual storytelling.",
+    "kanji": "京",
+    "assetIds": [12, 18, 20, 23],
+    "price": 1300,
+    "originalPrice": 1800,
+    "coverImage": "/generated/japan-kyoto-1772149361444.jpg",
+    "gradient": "from-red-950 to-pink-900",
+    "usecases": ["Travel Content", "B-Roll", "Meditation"]
+  },
+  {
+    "id": "fuji",
+    "title": "Fuji Pack",
+    "tagline": "The sacred peak. Every angle.",
+    "scene": "Fuji at dawn, golden hour, and winter reflection — 4 vertical-ready scenes for iconic Japan content.",
+    "kanji": "富",
+    "assetIds": [11, 15, 29, 30],
+    "price": 1200,
+    "originalPrice": 1600,
+    "coverImage": "/generated/japan-fuji-1772149358660.jpg",
+    "gradient": "from-blue-900 to-indigo-800",
+    "usecases": ["YouTube Shorts", "TikTok", "Travel Content"]
+  },
+  {
+    "id": "zen",
+    "title": "Zen & Silence Pack",
+    "tagline": "For creators who speak without noise.",
+    "scene": "Teahouse light, zen gardens, and still water — 5 scenes built for mindfulness and AI narration.",
+    "kanji": "禅",
+    "assetIds": [17, 20, 23, 27, 12],
+    "price": 1500,
+    "originalPrice": 2000,
+    "coverImage": "/generated/japan-kyoto-1772199341707.jpg",
+    "gradient": "from-green-900 to-teal-800",
+    "usecases": ["Meditation", "AI Narration", "B-Roll"]
+  },
+  {
+    "id": "night-city",
+    "title": "Night City Pack",
+    "tagline": "The city that never blinks.",
+    "scene": "Tokyo rooftop, Akihabara neon, Shibuya crossing — 3 scenes for urban energy and modern Japan content.",
+    "kanji": "夜",
+    "assetIds": [16, 26, 28],
+    "price": 700,
+    "originalPrice": 900,
+    "coverImage": "/generated/japan-night-1772149372779.jpg",
+    "gradient": "from-violet-950 to-purple-900",
+    "usecases": ["TikTok", "YouTube Shorts", "B-Roll"]
+  }
+]

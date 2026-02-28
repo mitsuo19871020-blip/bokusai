@@ -30,28 +30,28 @@ export default function Hero() {
         {/* Tag line */}
         <div className="inline-flex items-center gap-2 bg-white/5 border border-white/10 rounded-full px-4 py-1.5 mb-8">
           <span className="w-2 h-2 rounded-full bg-red-500 animate-pulse" />
-          <span className="text-white/60 text-xs tracking-widest uppercase">AI-Generated Japanese Content</span>
+          <span className="text-white/60 text-xs tracking-widest uppercase">For AI Video Creators · Japan Only</span>
         </div>
 
         {/* Main headline */}
         <h1 className="text-5xl md:text-7xl font-bold text-white leading-tight mb-6 tracking-tight">
-          Japanese Aesthetics
+          Japanese Visuals
           <br />
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-red-400 to-red-600">
-            for Your Next Video
+            for AI Storytellers.
           </span>
         </h1>
 
         {/* Sub headline */}
         <p className="text-white/50 text-lg md:text-xl max-w-2xl mx-auto mb-4 leading-relaxed">
-          Premium AI-generated footage & visuals inspired by Japan.
+          We sell only Japan — samurai, kyoto, zen, neon, silence.
           <br className="hidden md:block" />
-          Buy once. Download instantly. Use forever.
+          Drop the perfect scene into your Shorts, TikTok, or AI narration. Buy once. Use forever.
         </p>
 
-        {/* Japanese sub text */}
-        <p className="text-white/20 text-sm tracking-widest mb-12 font-serif">
-          桜 ・ 侘び寂び ・ 夜の東京
+        {/* Brand statement */}
+        <p className="text-white/35 text-sm tracking-[0.2em] mb-12 uppercase">
+          Made in Japan.&nbsp;&nbsp;Built for AI video creators worldwide.
         </p>
 
         {/* CTA Buttons */}
@@ -60,20 +60,20 @@ export default function Hero() {
             href="/browse"
             className="bg-red-600 hover:bg-red-500 text-white px-8 py-4 rounded text-base font-medium tracking-wide transition-all hover:scale-105 hover:shadow-lg hover:shadow-red-900/40"
           >
-            Browse Assets
+            Browse All Scenes
           </Link>
           <Link
-            href="/browse?type=video"
+            href="/browse?category=Samurai"
             className="bg-white/5 hover:bg-white/10 border border-white/20 text-white px-8 py-4 rounded text-base font-medium tracking-wide transition-all"
           >
-            View Video Clips
+            Start with Samurai
           </Link>
         </div>
 
         {/* Stats */}
         <div className="mt-20 flex flex-col sm:flex-row items-center justify-center gap-8 sm:gap-16">
           {[
-            { value: '500+', label: 'Assets' },
+            { value: 'Japan', label: 'Only' },
             { value: '4K', label: 'Resolution' },
             { value: 'Instant', label: 'Download' },
           ].map((stat) => (

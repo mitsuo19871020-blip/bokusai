@@ -6,47 +6,71 @@ export const metadata: Metadata = {
   description: 'Buy once. Download instantly. Use forever. Simple one-time pricing for every asset.',
 }
 
-const singlePrices = [
+const plans = [
   {
-    type: 'Image',
-    kanji: '画',
-    price: 190,
-    color: 'from-emerald-950 to-teal-900',
-    badge: 'bg-emerald-600/80',
+    id: 'single',
+    label: 'Single Scene',
+    kanji: '単',
+    price: 'from $2',
+    priceNote: 'per scene · one-time',
+    color: 'from-zinc-800 to-zinc-900',
+    badge: 'bg-white/10 text-white/70',
+    cta: 'Browse All Scenes',
+    ctaHref: '/browse',
+    ctaStyle: 'bg-white/8 hover:bg-white/12 border border-white/10 text-white',
+    popular: false,
+    comingSoon: false,
+    description: 'Buy exactly what you need. Each scene is priced individually based on rarity and resolution.',
     features: [
-      '4K resolution (4096×2731)',
+      'Prices range $2–$8 per image',
+      'Full resolution · no watermark',
       'JPEG + PNG included',
-      'Personal & commercial use',
-      'Instant download',
+      'Personal & commercial license',
+      'Instant download after payment',
     ],
   },
   {
-    type: 'Video Clip',
+    id: 'pack',
+    label: 'Scene Pack',
+    kanji: '組',
+    price: 'from $7',
+    priceNote: 'per pack · one-time',
+    color: 'from-red-950 to-zinc-900',
+    badge: 'bg-red-600/80 text-white',
+    cta: 'Browse All Packs',
+    ctaHref: '/packs',
+    ctaStyle: 'bg-red-600 hover:bg-red-500 text-white hover:shadow-lg hover:shadow-red-900/40',
+    popular: true,
+    comingSoon: false,
+    description: 'Curated sets grouped by theme. Buy a pack and save vs. buying individually.',
+    features: [
+      '3–5 scenes per pack',
+      'Samurai / Kyoto / Fuji / Zen / Night City',
+      'Save up to 29% vs. individual prices',
+      'Personal & commercial license',
+      'Instant download for each scene',
+    ],
+  },
+  {
+    id: 'video',
+    label: 'Video Clip',
     kanji: '動',
-    price: 290,
-    color: 'from-blue-950 to-indigo-900',
-    badge: 'bg-blue-600/80',
+    price: 'Coming Soon',
+    priceNote: 'stay tuned',
+    color: 'from-violet-950 to-zinc-900',
+    badge: 'bg-violet-600/50 text-violet-300',
+    cta: 'Notify Me',
+    ctaHref: '/about',
+    ctaStyle: 'bg-white/5 border border-white/10 text-white/40 cursor-not-allowed',
+    popular: false,
+    comingSoon: true,
+    description: 'AI-generated Japanese video loops, coming to bokusai soon.',
     features: [
-      '4K resolution (3840×2160)',
-      'MP4 / H.264',
       'Seamless loop ready',
-      'Personal & commercial use',
-      'Instant download',
-    ],
-  },
-  {
-    type: 'Premium Video',
-    kanji: '映',
-    price: 390,
-    color: 'from-violet-950 to-purple-900',
-    badge: 'bg-violet-600/80',
-    features: [
-      '4K resolution (3840×2160)',
-      'MP4 / H.264',
-      'Longer duration (12–15s)',
-      'Seamless loop ready',
-      'Personal & commercial use',
-      'Instant download',
+      'Vertical 9:16 format',
+      'Perfect for Shorts & Reels',
+      'Personal & commercial license',
+      'AI-generated, Japan-only',
     ],
   },
 ]
@@ -57,16 +81,20 @@ const faqs = [
     a: 'You can use the assets in YouTube videos, TikTok, Instagram Reels, Facebook Ads, client work, podcasts, presentations, and any other commercial project. The only restriction is redistribution of the raw files.',
   },
   {
+    q: 'Why do individual images have different prices?',
+    a: 'Each scene is priced based on its quality tier. Basic scenes start at ¥190. Premium scenes (like hand-crafted samurai visuals) are priced higher to reflect the additional work.',
+  },
+  {
+    q: 'What is a Scene Pack?',
+    a: 'A Scene Pack is a curated bundle of 3–5 images grouped by theme (e.g. Samurai Pack, Kyoto Pack). You buy the pack once and get all scenes inside — typically saving 20–30% vs. buying individually.',
+  },
+  {
     q: 'Do I need a subscription?',
-    a: 'No. Every asset is a one-time purchase. Pay once, download instantly, use forever. No recurring charges.',
+    a: 'No. Every asset and pack is a one-time purchase. Pay once, download instantly, use forever. No recurring charges.',
   },
   {
     q: 'Can I use assets for client work?',
     a: 'Yes. Your commercial license covers client projects. You can deliver finished videos to clients without purchasing additional licenses.',
-  },
-  {
-    q: 'What format will I receive?',
-    a: 'Videos are delivered as MP4 (H.264) at 4K resolution. Images come as both JPEG and PNG at 4K resolution.',
   },
   {
     q: 'Can I resell or redistribute the files?',
@@ -87,46 +115,49 @@ export default function PricingPage() {
           Simple, one-time pricing
         </h1>
         <p className="text-white/40 text-base max-w-lg mx-auto leading-relaxed">
-          No subscriptions. No hidden fees. Buy what you need, when you need it.
+          No subscriptions. No hidden fees.
+          Buy a single scene or a curated pack — yours forever.
         </p>
       </div>
 
       <div className="max-w-6xl mx-auto px-6 py-20">
         {/* Pricing cards */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-20">
-          {singlePrices.map((plan, i) => (
+          {plans.map((plan) => (
             <div
-              key={plan.type}
+              key={plan.id}
               className={`relative rounded-xl border overflow-hidden flex flex-col ${
-                i === 1
+                plan.popular
                   ? 'border-red-600/40 bg-zinc-900'
                   : 'border-white/8 bg-zinc-900/60'
-              }`}
+              } ${plan.comingSoon ? 'opacity-60' : ''}`}
             >
               {/* Popular badge */}
-              {i === 1 && (
+              {plan.popular && (
                 <div className="absolute top-0 left-0 right-0 bg-red-600 text-white text-xs tracking-widest text-center py-1.5 font-medium uppercase">
-                  Most Popular
+                  Best Value
                 </div>
               )}
 
               {/* Card header */}
-              <div className={`relative p-6 bg-gradient-to-br ${plan.color} ${i === 1 ? 'mt-8' : ''}`}>
+              <div className={`relative p-6 bg-gradient-to-br ${plan.color} ${plan.popular ? 'mt-8' : ''}`}>
                 <span className="absolute right-4 bottom-2 text-white/10 text-6xl font-serif select-none">
                   {plan.kanji}
                 </span>
-                <span className={`inline-block text-xs px-2.5 py-0.5 rounded font-medium text-white mb-3 ${plan.badge}`}>
-                  {plan.type.toUpperCase()}
+                <span className={`inline-block text-xs px-2.5 py-0.5 rounded font-medium mb-3 ${plan.badge}`}>
+                  {plan.label.toUpperCase()}
                 </span>
                 <div className="flex items-end gap-1.5">
-                  <span className="text-5xl font-bold text-white">¥{plan.price}</span>
-                  <span className="text-white/40 text-sm mb-1.5">/ asset</span>
+                  <span className={`font-bold text-white ${plan.comingSoon ? 'text-2xl mt-2' : 'text-4xl'}`}>
+                    {plan.price}
+                  </span>
                 </div>
-                <p className="text-white/40 text-xs mt-1">one-time payment</p>
+                <p className="text-white/40 text-xs mt-1">{plan.priceNote}</p>
               </div>
 
               {/* Features */}
               <div className="p-6 flex flex-col flex-1">
+                <p className="text-white/40 text-xs leading-relaxed mb-5">{plan.description}</p>
                 <ul className="space-y-3 flex-1">
                   {plan.features.map((f) => (
                     <li key={f} className="flex items-start gap-3 text-sm text-white/60">
@@ -136,12 +167,7 @@ export default function PricingPage() {
                         stroke="currentColor"
                         viewBox="0 0 24 24"
                       >
-                        <path
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                          strokeWidth={2}
-                          d="M5 13l4 4L19 7"
-                        />
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                       </svg>
                       {f}
                     </li>
@@ -149,14 +175,10 @@ export default function PricingPage() {
                 </ul>
 
                 <Link
-                  href="/browse"
-                  className={`mt-6 block text-center py-3 rounded-lg text-sm font-semibold tracking-wide transition-all ${
-                    i === 1
-                      ? 'bg-red-600 hover:bg-red-500 text-white hover:shadow-lg hover:shadow-red-900/40'
-                      : 'bg-white/8 hover:bg-white/12 text-white border border-white/10'
-                  }`}
+                  href={plan.ctaHref}
+                  className={`mt-6 block text-center py-3 rounded-lg text-sm font-semibold tracking-wide transition-all ${plan.ctaStyle} ${plan.comingSoon ? 'pointer-events-none' : ''}`}
                 >
-                  Browse {plan.type}s
+                  {plan.cta}
                 </Link>
               </div>
             </div>
@@ -236,13 +258,23 @@ export default function PricingPage() {
         <div className="mt-20 text-center">
           <p className="text-white/30 text-sm mb-6 font-serif tracking-widest">— 墨彩 —</p>
           <h2 className="text-white text-2xl font-bold mb-4">Ready to elevate your content?</h2>
-          <p className="text-white/40 text-sm mb-8">Browse the full collection and find your perfect shot.</p>
-          <Link
-            href="/browse"
-            className="inline-block bg-red-600 hover:bg-red-500 text-white px-10 py-4 rounded-lg font-semibold tracking-wide transition-all hover:shadow-lg hover:shadow-red-900/40 hover:scale-105"
-          >
-            Browse All Assets
-          </Link>
+          <p className="text-white/40 text-sm mb-8">
+            Browse individual scenes or grab a curated pack — Japan-only, made for creators.
+          </p>
+          <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
+            <Link
+              href="/packs"
+              className="inline-block bg-red-600 hover:bg-red-500 text-white px-10 py-4 rounded-lg font-semibold tracking-wide transition-all hover:shadow-lg hover:shadow-red-900/40 hover:scale-105"
+            >
+              Browse Scene Packs
+            </Link>
+            <Link
+              href="/browse"
+              className="inline-block bg-white/5 hover:bg-white/10 border border-white/15 text-white px-10 py-4 rounded-lg font-semibold tracking-wide transition-all"
+            >
+              Browse Individual Scenes
+            </Link>
+          </div>
         </div>
       </div>
     </main>

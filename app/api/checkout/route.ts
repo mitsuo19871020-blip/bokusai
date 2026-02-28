@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server'
 import Stripe from 'stripe'
 import { assets } from '@/lib/assets'
+import { packs } from '@/lib/packs'
 
 const stripe = new Stripe(process.env.STRIPE_SECRET_KEY!, {
   apiVersion: '2026-02-25.clover',
@@ -29,14 +30,57 @@ export async function POST(req: NextRequest) {
     return NextResponse.json({ error: 'Too many requests' }, { status: 429 })
   }
 
-  const { assetId } = await req.json()
+  const appUrl = process.env.APP_URL ?? 'http://localhost:3000'
+  const body = await req.json()
+
+  // ── Pack checkout ──
+  if (body.packId) {
+    const pack = packs.find((p) => p.id === body.packId)
+    if (!pack) {
+      return NextResponse.json({ error: 'Pack not found' }, { status: 404 })
+    }
+
+    const imageUrl = pack.coverImage.startsWith('http') ? pack.coverImage : undefined
+
+    try {
+      const session = await stripe.checkout.sessions.create({
+        mode: 'payment',
+        metadata: {
+          packId: pack.id,
+        },
+        line_items: [
+          {
+            price_data: {
+              currency: 'usd',
+              product_data: {
+                name: pack.title,
+                description: `${pack.assetIds.length} scenes · ${pack.tagline}`,
+                ...(imageUrl ? { images: [imageUrl] } : {}),
+              },
+              unit_amount: pack.price,
+            },
+            quantity: 1,
+          },
+        ],
+        success_url: `${appUrl}/success?session_id={CHECKOUT_SESSION_ID}&pack_id=${pack.id}`,
+        cancel_url: `${appUrl}/packs`,
+      })
+
+      return NextResponse.json({ url: session.url })
+    } catch (err) {
+      console.error('Stripe error:', err)
+      const message = err instanceof Error ? err.message : 'Checkout failed'
+      return NextResponse.json({ error: message }, { status: 500 })
+    }
+  }
+
+  // ── Single asset checkout ──
+  const { assetId } = body
 
   const asset = assets.find((a) => a.id === Number(assetId))
   if (!asset) {
     return NextResponse.json({ error: 'Asset not found' }, { status: 404 })
   }
-
-  const appUrl = process.env.APP_URL ?? 'http://localhost:3000'
 
   // Stripeは絶対URLの画像しか受け付けないので、相対パスの場合は除外する
   const imageUrl = asset.image.startsWith('http') ? asset.image : undefined
@@ -50,7 +94,7 @@ export async function POST(req: NextRequest) {
       line_items: [
         {
           price_data: {
-            currency: 'jpy',
+            currency: 'usd',
             product_data: {
               name: asset.title,
               description: `${asset.type === 'video' ? 'Video Clip' : 'Image'} · ${asset.category} · ${asset.resolution}`,
