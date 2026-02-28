@@ -32,6 +32,8 @@ export const categoryGradients: Record<string, string> = {
   Night: 'from-violet-950 to-purple-900',
   Shibuya: 'from-pink-900 to-rose-800',
   Nature: 'from-green-900 to-teal-800',
+  Bakumatsu: 'from-zinc-900 to-stone-800',
+  Sengoku: 'from-red-950 to-stone-900',
 }
 
 export const categoryKanji: Record<string, string> = {
@@ -48,4 +50,6 @@ export const categoryKanji: Record<string, string> = {
   Night: '夜',
   Shibuya: '渋',
   Nature: '然',
+  Bakumatsu: '幕',
+  Sengoku: '戦',
 }
