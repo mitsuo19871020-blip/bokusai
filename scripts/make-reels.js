@@ -104,10 +104,28 @@ for (const asset of targets) {
     const size = (fs.statSync(outputPath).size / 1024 / 1024).toFixed(1)
     console.log(`✅  (${size} MB)`)
     ok++
+
+    // assets.json を更新して動画アセットとして登録
+    const idx = allAssets.findIndex(a => a.id === asset.id)
+    if (idx !== -1) {
+      allAssets[idx].type = 'video'
+      allAssets[idx].video = `/reels/${MODE_LABEL}-${asset.id}.mp4`
+      allAssets[idx].format = `MP4 (H.264) ${isSquare ? '1:1' : '9:16'}`
+      allAssets[idx].duration = `${DURATION} sec`
+      allAssets[idx].fileSize = `~${size}MB`
+      allAssets[idx].tags = allAssets[idx].tags.filter(t => t !== '4K')
+      if (!allAssets[idx].tags.includes('video')) allAssets[idx].tags.unshift('video')
+    }
   } catch (e) {
     console.log(`❌  failed`)
     fail++
   }
+}
+
+// assets.json に書き込む
+if (ok > 0) {
+  fs.writeFileSync(ASSETS_PATH, JSON.stringify(allAssets, null, 2))
+  console.log(`\n  📝 assets.json 更新済み (${ok}件を video 型に変換)`)
 }
 
 // ── サマリー ─────────────────────────────────────────────────────
