@@ -56,7 +56,7 @@ async function generateMockImage(category) {
 // 本番モード: Hugging Face APIで画像を生成して保存
 async function generateRealImage(category) {
   const prompt = pick(category.prompts)
-  const fullPrompt = `${prompt}, 8K ultra detailed, professional photography, award winning`
+  const fullPrompt = `${prompt}, vertical portrait composition 9:16, tall framing, mobile wallpaper, ultra detailed, professional photography, award winning`
 
   console.log(`   プロンプト: ${prompt.slice(0, 60)}...`)
 
@@ -70,7 +70,11 @@ async function generateRealImage(category) {
       },
       body: JSON.stringify({
         inputs: fullPrompt,
-        parameters: { num_inference_steps: 4 },
+        parameters: {
+          num_inference_steps: 4,
+          width: 576,
+          height: 1024,
+        },
       }),
     }
   )
