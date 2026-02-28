@@ -9,6 +9,7 @@ export type Asset = {
   duration?: string
   tags: string[]
   image: string
+  video?: string
   description: string
   resolution: string
   format: string
@@ -29,6 +30,8 @@ export const categoryGradients: Record<string, string> = {
   Fuji: 'from-blue-900 to-indigo-800',
   'Ukiyo-e': 'from-teal-900 to-emerald-800',
   Night: 'from-violet-950 to-purple-900',
+  Shibuya: 'from-pink-900 to-rose-800',
+  Nature: 'from-green-900 to-teal-800',
 }
 
 export const categoryKanji: Record<string, string> = {
@@ -43,4 +46,6 @@ export const categoryKanji: Record<string, string> = {
   Fuji: '富',
   'Ukiyo-e': '浮',
   Night: '夜',
+  Shibuya: '渋',
+  Nature: '然',
 }

@@ -144,6 +144,23 @@ async function main() {
       await downloadFile(videoUrl, outputPath)
       const size = (fs.statSync(outputPath).size / 1024 / 1024).toFixed(1)
       console.log(`✅  完了 (${size} MB) → ${outputPath}`)
+
+      // assets.json を更新して動画アセットとして登録
+      const dataPath = path.join(__dirname, '../data/assets.json')
+      const allData = JSON.parse(fs.readFileSync(dataPath, 'utf-8'))
+      const target = allData.find(a => a.id === asset.id)
+      if (target) {
+        target.type = 'video'
+        target.video = `/videos/video-${asset.id}.mp4`
+        target.format = 'MP4 (H.264)'
+        target.duration = '5 sec'
+        target.fileSize = `~${size}MB`
+        if (!target.tags.includes('video')) target.tags.unshift('5sec')
+        target.tags = target.tags.filter(t => t !== '4K')
+        target.tags.unshift('video')
+        fs.writeFileSync(dataPath, JSON.stringify(allData, null, 2))
+        console.log(`   📝 assets.json 更新済み (type: video)`)
+      }
     } catch (err) {
       console.log(`❌  失敗`)
       console.error(`       ${err.message}`)

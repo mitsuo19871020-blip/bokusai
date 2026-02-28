@@ -50,13 +50,24 @@ export default async function AssetPage({ params }: Props) {
           <div className="space-y-6">
             {/* Main preview */}
             <div className={`relative aspect-video rounded-xl overflow-hidden bg-gradient-to-br ${gradient}`}>
-              <img
-                src={asset.image}
-                alt={asset.title}
-                className="absolute inset-0 w-full h-full object-cover"
-              />
+              {asset.type === 'video' && asset.video ? (
+                <video
+                  src={asset.video}
+                  poster={asset.image}
+                  controls
+                  loop
+                  playsInline
+                  className="absolute inset-0 w-full h-full object-cover"
+                />
+              ) : (
+                <img
+                  src={asset.image}
+                  alt={asset.title}
+                  className="absolute inset-0 w-full h-full object-cover"
+                />
+              )}
               {/* Overlay */}
-              <div className="absolute inset-0 bg-black/10" />
+              {asset.type !== 'video' && <div className="absolute inset-0 bg-black/10" />}
 
               {/* Watermark */}
               <span className="absolute bottom-4 right-4 text-white/15 text-7xl font-serif select-none drop-shadow-xl pointer-events-none">
@@ -77,19 +88,8 @@ export default async function AssetPage({ params }: Props) {
                 )}
               </div>
 
-              {/* Play icon overlay for video */}
-              {asset.type === 'video' && (
-                <div className="absolute inset-0 flex items-center justify-center">
-                  <div className="w-16 h-16 rounded-full bg-black/50 border border-white/20 flex items-center justify-center backdrop-blur-sm">
-                    <svg className="w-7 h-7 text-white ml-1" fill="currentColor" viewBox="0 0 24 24">
-                      <path d="M8 5v14l11-7z" />
-                    </svg>
-                  </div>
-                </div>
-              )}
-
               {/* Bokusai watermark strip */}
-              <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/60 to-transparent h-20 flex items-end px-4 pb-3">
+              <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/60 to-transparent h-20 flex items-end px-4 pb-3 pointer-events-none">
                 <span className="text-white/25 text-xs tracking-widest">PREVIEW — WATERMARK REMOVED AFTER PURCHASE</span>
               </div>
             </div>

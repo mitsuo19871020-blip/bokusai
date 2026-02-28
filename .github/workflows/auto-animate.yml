@@ -1,0 +1,78 @@
+name: Auto Animate Videos
+
+on:
+  schedule:
+    # 毎週日曜 JST 午前2時に実行 (UTC 日曜 17:00)
+    - cron: '0 17 * * 0'
+  workflow_dispatch:
+    inputs:
+      count:
+        description: '動画化する枚数'
+        required: false
+        default: '3'
+        type: string
+
+permissions:
+  contents: write
+
+jobs:
+  animate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+          cache-dependency-path: package-lock.json
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Find images to animate
+        id: find_targets
+        run: |
+          COUNT=${{ github.event.inputs.count || '3' }}
+          # type:image かつ /generated/ パスのアセットIDを新しい順に取得
+          IDS=$(node -e "
+            const data = require('./data/assets.json');
+            const targets = data
+              .filter(a => a.type === 'image' && a.image && a.image.startsWith('/generated/'))
+              .slice(-${COUNT})
+              .map(a => a.id)
+              .join(',');
+            console.log(targets);
+          ")
+          echo "ids=$IDS" >> $GITHUB_OUTPUT
+          echo "対象ID: $IDS"
+
+      - name: Animate images to video
+        if: steps.find_targets.outputs.ids != ''
+        env:
+          REPLICATE_API_TOKEN: ${{ secrets.REPLICATE_API_TOKEN }}
+        run: |
+          node scripts/animate.js --id ${{ steps.find_targets.outputs.ids }}
+
+      - name: Check for new files
+        id: check_changes
+        run: |
+          if [ -n "$(git status --short)" ]; then
+            echo "has_changes=true" >> $GITHUB_OUTPUT
+          else
+            echo "has_changes=false" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Commit and push
+        if: steps.check_changes.outputs.has_changes == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/assets.json public/videos/
+          git commit -m "Add AI-animated videos [auto]"
+          git push

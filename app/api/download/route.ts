@@ -49,5 +49,8 @@ export async function GET(req: NextRequest) {
     return NextResponse.json({ error: 'Asset not found' }, { status: 404 })
   }
 
-  return NextResponse.redirect(asset.image)
+  const appUrl = process.env.APP_URL ?? 'http://localhost:3000'
+  const filePath = asset.type === 'video' && asset.video ? asset.video : asset.image
+  const fileUrl = filePath.startsWith('http') ? filePath : `${appUrl}${filePath}`
+  return NextResponse.redirect(fileUrl)
 }
