@@ -340,5 +340,59 @@
     "resolution": "4096 × 2731 (4K)",
     "format": "JPEG / PNG",
     "fileSize": "~30MB"
+  },
+  {
+    "id": 29,
+    "title": "Pagoda and Mountain",
+    "type": "image",
+    "category": "Fuji",
+    "price": 190,
+    "tags": [
+      "4K",
+      "fuji",
+      "mountain",
+      "landscape"
+    ],
+    "image": "/generated/japan-fuji-1772285160297.jpg",
+    "description": "Sunrise over Mount Fuji from high altitude, sea of clouds below, orange and purple sky",
+    "resolution": "576 × 1024 (9:16)",
+    "format": "JPEG / PNG",
+    "fileSize": "~8MB"
+  },
+  {
+    "id": 30,
+    "title": "Sacred Peak in Winter",
+    "type": "image",
+    "category": "Fuji",
+    "price": 190,
+    "tags": [
+      "4K",
+      "fuji",
+      "mountain",
+      "landscape"
+    ],
+    "image": "/generated/japan-fuji-1772285162329.jpg",
+    "description": "Mount Fuji at golden hour, perfect reflection in Lake Kawaguchi, cherry blossoms in foreground, iconic Japan",
+    "resolution": "576 × 1024 (9:16)",
+    "format": "JPEG / PNG",
+    "fileSize": "~8MB"
+  },
+  {
+    "id": 31,
+    "title": "Autumn Campaign",
+    "type": "image",
+    "category": "Samurai",
+    "price": 290,
+    "tags": [
+      "4K",
+      "samurai",
+      "warrior",
+      "historical"
+    ],
+    "image": "/generated/japan-samurai-1772285164023.jpg",
+    "description": "Two samurai duel in a bamboo forest, dramatic action, motion blur, cherry blossoms falling",
+    "resolution": "576 × 1024 (9:16)",
+    "format": "JPEG / PNG",
+    "fileSize": "~8MB"
   }
 ]
