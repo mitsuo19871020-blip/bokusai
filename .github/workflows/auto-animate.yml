@@ -55,3 +55,24 @@ jobs:
           git add data/assets.json public/reels/
           git commit -m "Add FFmpeg reels videos [auto]"
           git push
+
+      - name: Send email notification
+        if: always()
+        uses: dawidd6/action-send-mail@v3
+        with:
+          server_address: smtp.gmail.com
+          server_port: 465
+          secure: true
+          username: ${{ secrets.GMAIL_USER }}
+          password: ${{ secrets.GMAIL_APP_PASSWORD }}
+          subject: "bokusai 動画生成 ${{ job.status == 'success' && '✅ 完了' || '❌ 失敗' }}"
+          to: mitsuo19871020@gmail.com
+          from: bokusai bot <${{ secrets.GMAIL_USER }}>
+          body: |
+            bokusai 動画生成ワークフローが終了しました。
+
+            ステータス: ${{ job.status }}
+            実行日時: ${{ github.run_started_at }}
+
+            詳細はこちら:
+            https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}
