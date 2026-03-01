@@ -14,6 +14,12 @@ const categories = [
     resolution: '576 × 1024 (9:16)',
     format: 'JPEG / PNG',
     fileSize: '~8MB',
+    usecases: ['AI Narration', 'History', 'YouTube Shorts'],
+    sceneTemplates: [
+      'A quiet Edo street at dusk — perfect for AI narration on tradition and craftsmanship.',
+      'Merchants and lanterns of old Japan — ideal background for history or culture content.',
+      'The stillness of Edo-era life — sets the tone for reflective AI voiceover videos.',
+    ],
     prompts: [
       'Edo period Nihonbashi merchant district at dusk, traditional wooden two-story machiya townhouses with noren curtains, stone-paved road, paper lanterns glowing amber, townsfolk in cotton kimono, no readable text, cinematic vertical composition',
       'Edo era Sumida river at twilight, wooden merchant barges moored along stone embankment, weeping willows trailing in water, stone lanterns reflecting on still surface, no signs, painterly vertical light',
@@ -48,6 +54,12 @@ const categories = [
     resolution: '576 × 1024 (9:16)',
     format: 'JPEG / PNG',
     fileSize: '~8MB',
+    usecases: ['AI Narration', 'Meditation', 'YouTube Shorts'],
+    sceneTemplates: [
+      'Ancient Kyoto in silence — perfect backdrop for mindfulness or cultural AI narration.',
+      'The timeless beauty of temples and torii — ideal for meditative or travel content.',
+      'Kyoto at its most serene — sets the mood for reflective voiceover videos.',
+    ],
     prompts: [
       'Fushimi Inari shrine at dawn, thousands of vermilion torii gates receding into misty cedar forest, stone fox statues, no people, vertical composition, no text',
       'Arashiyama bamboo grove, towering green stalks forming cathedral-like vertical canopy, dappled sunlight, narrow path, peaceful and meditative, no text',
@@ -82,6 +94,12 @@ const categories = [
     resolution: '576 × 1024 (9:16)',
     format: 'JPEG / PNG',
     fileSize: '~8MB',
+    usecases: ['AI Narration', 'History', 'TikTok'],
+    sceneTemplates: [
+      'A warrior at peace, blade set aside — perfect for AI narration on discipline and inner strength.',
+      'Honor, silence, and steel — ideal visual for motivational or historical AI video content.',
+      'The lone samurai at the edge of battle — sets the scene for legacy and courage narratives.',
+    ],
     prompts: [
       'Edo period samurai retainer in black-lacquered tosei-gusoku full armor, kabuto helmet with kuwagata horns and shikoro neck guard, daisho katana-wakizashi pair thrust at left hip edge upward, cherry blossom castle courtyard, no text, historically accurate Japanese armor',
       'Lone ronin in worn gray hemp kimono and dark hakama, single katana at left hip edge facing upward, chonmage topknot hairstyle with shaved pate, standing at foggy crossroads at dawn, no text, authentic Edo period warrior',
@@ -116,6 +134,12 @@ const categories = [
     resolution: '576 × 1024 (9:16)',
     format: 'JPEG / PNG',
     fileSize: '~8MB',
+    usecases: ['AI Narration', 'History', 'YouTube Shorts'],
+    sceneTemplates: [
+      'Japan at the edge of transformation — perfect for AI narration on change and sacrifice.',
+      'The last age of the samurai — ideal visual for historical or legacy-themed content.',
+      'Honor meeting modernity — sets the tone for narratives about courage and inevitability.',
+    ],
     prompts: [
       'Bakumatsu era shishi loyalist in dark indigo kimono and black hakama, single katana at left hip edge upward, rain-soaked Pontocho narrow alley at night, red paper lanterns reflecting in puddles, no text, 1860s Japan',
       'Shinsengumi warrior in distinctive pale blue haori with white mountain-stripe crest on shoulders, katana drawn in chudan-no-kamae defensive stance, moonlit Kyoto street beside traditional machiya, no text, historically accurate uniform',
@@ -150,6 +174,12 @@ const categories = [
     resolution: '576 × 1024 (9:16)',
     format: 'JPEG / PNG',
     fileSize: '~8MB',
+    usecases: ['AI Narration', 'History', 'TikTok'],
+    sceneTemplates: [
+      'Warlords and battlefield fog — perfect for AI narration on ambition and legacy.',
+      'The age of warring states, frozen in time — ideal for epic historical content.',
+      'Armies clash at dawn — sets the stage for strategy or leadership themed videos.',
+    ],
     prompts: [
       'Sengoku period samurai warlord in elaborate golden kabuto helmet with towering standing crest, full tosei-gusoku battle armor, commanding hilltop position, colorful nobori battle flags with Japanese kamon crests in background, no text',
       'Ashigaru foot soldiers in simple okegawa-do cuirass and jingasa conical helmets marching in formation through misty dawn, yari spears raised at uniform angle, no text, historically accurate Sengoku equipment',
@@ -184,6 +214,12 @@ const categories = [
     resolution: '576 × 1024 (9:16)',
     format: 'JPEG / PNG',
     fileSize: '~8MB',
+    usecases: ['AI Narration', 'Meditation', 'Lofi Background'],
+    sceneTemplates: [
+      'Mount Fuji in eternal stillness — perfect background for lofi, meditation, or mindfulness content.',
+      'Japan\'s sacred peak above the clouds — ideal for AI narration on perseverance and awe.',
+      'The iconic silhouette of Fuji — sets a calming, cinematic tone for any voiceover video.',
+    ],
     prompts: [
       'Mount Fuji at golden hour seen from below, perfect snow-capped cone rising above cherry blossom foreground, Lake Kawaguchi reflection, vertical composition, no text',
       'Mount Fuji in winter at dawn, snow-capped peak emerging from sea of clouds, dramatic crimson sky, traditional five-story pagoda silhouette in foreground, no text',
@@ -218,6 +254,12 @@ const categories = [
     resolution: '576 × 1024 (9:16)',
     format: 'JPEG / PNG',
     fileSize: '~8MB',
+    usecases: ['AI Narration', 'Art', 'YouTube Shorts'],
+    sceneTemplates: [
+      'Centuries of Japanese art distilled in one frame — perfect for cultural or artistic AI content.',
+      'Woodblock mastery reimagined for the vertical screen — ideal for art history narration.',
+      'The floating world of Edo, alive again — sets an artistic tone for any creator\'s story.',
+    ],
     prompts: [
       'Hokusai Great Wave off Kanagawa reimagined in vertical portrait format, towering wave framing snow-capped Fuji, Prussian blue palette, bold flat graphic style, woodblock print aesthetic, no text',
       'Ukiyo-e style bijin-ga portrait, elegant woman in elaborate kanzashi hair ornaments and layered furisode kimono, cherry blossom background, vivid Edo-palette colors, flat graphic style, no text',
@@ -252,6 +294,12 @@ const categories = [
     resolution: '576 × 1024 (9:16)',
     format: 'JPEG / PNG',
     fileSize: '~8MB',
+    usecases: ['Lofi Background', 'TikTok', 'AI Narration'],
+    sceneTemplates: [
+      'Tokyo after dark, lanterns glowing — perfect backdrop for lofi or city ambiance content.',
+      'Neon reflections on wet streets — ideal for atmospheric or urban storytelling videos.',
+      'The quiet pulse of Japan at night — sets a moody, cinematic tone for any creator.',
+    ],
     prompts: [
       'Tokyo narrow izakaya alley at night, red and orange paper lanterns strung overhead, rain reflections on wet cobblestones, bokeh lights, warm intimate atmosphere, no legible text, vertical composition',
       'Osaka Dotonbori canal at night, colorful neon reflections shimmering on dark water below bridges, vertical perspective looking down narrow canal, no readable signs',
@@ -286,6 +334,12 @@ const categories = [
     resolution: '576 × 1024 (9:16)',
     format: 'JPEG / PNG',
     fileSize: '~8MB',
+    usecases: ['TikTok', 'AI Narration', 'YouTube Shorts'],
+    sceneTemplates: [
+      'The organized chaos of Shibuya crossing — perfect for modern Japan or lifestyle AI content.',
+      'Neon Tokyo from street level — ideal visual for travel, fashion, or culture videos.',
+      'Urban Japan at its most electric — sets a dynamic backdrop for any short-form creator.',
+    ],
     prompts: [
       'Shibuya crossing at night from street level looking up, hundreds of pedestrians, neon signs reflecting on wet pavement above, rain bokeh, cinematic vertical composition, no readable text',
       'Harajuku Takeshita Street in golden hour, colorful youth fashion, vertical perspective down narrow pedestrian street lined with small boutiques, no readable signs',
@@ -320,6 +374,12 @@ const categories = [
     resolution: '576 × 1024 (9:16)',
     format: 'JPEG / PNG',
     fileSize: '~8MB',
+    usecases: ['Meditation', 'AI Narration', 'Lofi Background'],
+    sceneTemplates: [
+      'Sacred torii and cedar shadows — perfect backdrop for spiritual or mindfulness AI content.',
+      'Where Japan meets the divine — ideal for meditation, zen, or cultural narration videos.',
+      'Ancient shrine in morning mist — sets a deeply peaceful tone for reflective creators.',
+    ],
     prompts: [
       'Ancient Shinto shrine pathway deep in cedar forest, moss-covered stone komainu guardian dogs flanking steps, stone torii gate wrapped in shimenawa rope, sacred mist, vertical composition, no text',
       'Traditional Japanese matsuri portable shrine (mikoshi) procession, gilded phoenix on top, bearers in white happi coats, crowd lining the street, festive atmosphere, no text',
@@ -354,6 +414,12 @@ const categories = [
     resolution: '576 × 1024 (9:16)',
     format: 'JPEG / PNG',
     fileSize: '~8MB',
+    usecases: ['Meditation', 'Lofi Background', 'AI Narration'],
+    sceneTemplates: [
+      'Japan\'s untouched wilderness in one vertical frame — perfect for relaxation or nature content.',
+      'Seasons, silence, and natural beauty — ideal background for lofi or mindfulness videos.',
+      'The raw soul of the Japanese landscape — sets a serene, immersive tone for any creator.',
+    ],
     prompts: [
       'Japanese outdoor rotenburo onsen hot spring at dawn, steam rising from dark mineral water, autumn forest in full red and gold koyo surrounding stone bath, serene mountain valley, no text',
       'Nikko Kegon waterfall plunging 97 meters into gorge below, lush green summer forest framing the cascade, mist rising, dramatic vertical composition, no text',

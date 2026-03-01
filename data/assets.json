@@ -590,7 +590,13 @@
     "format": "MP4 (H.264) 9:16",
     "fileSize": "~1.9MB",
     "video": "/reels/reels-32.mp4",
-    "duration": "8 sec"
+    "duration": "8 sec",
+    "scene": "Ancient shrine in morning mist — sets a deeply peaceful tone for reflective creators.",
+    "usecases": [
+      "Meditation",
+      "AI Narration",
+      "Lofi Background"
+    ]
   },
   {
     "id": 33,
@@ -611,7 +617,13 @@
     "format": "MP4 (H.264) 9:16",
     "fileSize": "~2.2MB",
     "video": "/reels/reels-33.mp4",
-    "duration": "8 sec"
+    "duration": "8 sec",
+    "scene": "The organized chaos of Shibuya crossing — perfect for modern Japan or lifestyle AI content.",
+    "usecases": [
+      "TikTok",
+      "AI Narration",
+      "YouTube Shorts"
+    ]
   },
   {
     "id": 34,
@@ -632,7 +644,13 @@
     "format": "MP4 (H.264) 9:16",
     "fileSize": "~3.4MB",
     "video": "/reels/reels-34.mp4",
-    "duration": "8 sec"
+    "duration": "8 sec",
+    "scene": "The raw soul of the Japanese landscape — sets a serene, immersive tone for any creator.",
+    "usecases": [
+      "Meditation",
+      "Lofi Background",
+      "AI Narration"
+    ]
   },
   {
     "id": 35,
@@ -653,7 +671,13 @@
     "format": "MP4 (H.264) 9:16",
     "fileSize": "~2.2MB",
     "video": "/reels/reels-35.mp4",
-    "duration": "8 sec"
+    "duration": "8 sec",
+    "scene": "Urban Japan at its most electric — sets a dynamic backdrop for any short-form creator.",
+    "usecases": [
+      "TikTok",
+      "AI Narration",
+      "YouTube Shorts"
+    ]
   },
   {
     "id": 36,
@@ -674,7 +698,13 @@
     "format": "MP4 (H.264) 9:16",
     "fileSize": "~2.4MB",
     "video": "/reels/reels-36.mp4",
-    "duration": "8 sec"
+    "duration": "8 sec",
+    "scene": "Tokyo after dark, lanterns glowing — perfect backdrop for lofi or city ambiance content.",
+    "usecases": [
+      "Lofi Background",
+      "TikTok",
+      "AI Narration"
+    ]
   },
   {
     "id": 37,
@@ -697,7 +727,13 @@
     "format": "MP4 (H.264) 9:16",
     "fileSize": "~3.3MB",
     "video": "/reels/reels-37.mp4",
-    "duration": "8 sec"
+    "duration": "8 sec",
+    "scene": "Warlords and battlefield fog — perfect for AI narration on ambition and legacy.",
+    "usecases": [
+      "AI Narration",
+      "History",
+      "TikTok"
+    ]
   },
   {
     "id": 38,
@@ -718,7 +754,13 @@
     "format": "MP4 (H.264) 9:16",
     "fileSize": "~2.0MB",
     "video": "/reels/reels-38.mp4",
-    "duration": "8 sec"
+    "duration": "8 sec",
+    "scene": "The timeless beauty of temples and torii — ideal for meditative or travel content.",
+    "usecases": [
+      "AI Narration",
+      "Meditation",
+      "YouTube Shorts"
+    ]
   },
   {
     "id": 39,
@@ -740,7 +782,13 @@
     "format": "MP4 (H.264) 9:16",
     "fileSize": "~2.1MB",
     "video": "/reels/reels-39.mp4",
-    "duration": "8 sec"
+    "duration": "8 sec",
+    "scene": "Japan at the edge of transformation — perfect for AI narration on change and sacrifice.",
+    "usecases": [
+      "AI Narration",
+      "History",
+      "YouTube Shorts"
+    ]
   },
   {
     "id": 40,
@@ -761,7 +809,13 @@
     "format": "MP4 (H.264) 9:16",
     "fileSize": "~1.8MB",
     "video": "/reels/reels-40.mp4",
-    "duration": "8 sec"
+    "duration": "8 sec",
+    "scene": "Mount Fuji in eternal stillness — perfect background for lofi, meditation, or mindfulness content.",
+    "usecases": [
+      "AI Narration",
+      "Meditation",
+      "Lofi Background"
+    ]
   },
   {
     "id": 41,
@@ -782,7 +836,13 @@
     "format": "MP4 (H.264) 9:16",
     "fileSize": "~1.9MB",
     "video": "/reels/reels-41.mp4",
-    "duration": "8 sec"
+    "duration": "8 sec",
+    "scene": "Merchants and lanterns of old Japan — ideal background for history or culture content.",
+    "usecases": [
+      "AI Narration",
+      "History",
+      "YouTube Shorts"
+    ]
   },
   {
     "id": 42,
@@ -804,7 +864,13 @@
     "format": "MP4 (H.264) 9:16",
     "fileSize": "~2.8MB",
     "video": "/reels/reels-42.mp4",
-    "duration": "8 sec"
+    "duration": "8 sec",
+    "scene": "A warrior at peace, blade set aside — perfect for AI narration on discipline and inner strength.",
+    "usecases": [
+      "AI Narration",
+      "History",
+      "TikTok"
+    ]
   },
   {
     "id": 43,
@@ -825,7 +891,13 @@
     "format": "MP4 (H.264) 9:16",
     "fileSize": "~1.9MB",
     "video": "/reels/reels-43.mp4",
-    "duration": "8 sec"
+    "duration": "8 sec",
+    "scene": "A quiet Edo street at dusk — perfect for AI narration on tradition and craftsmanship.",
+    "usecases": [
+      "AI Narration",
+      "History",
+      "YouTube Shorts"
+    ]
   },
   {
     "id": 44,
@@ -846,7 +918,13 @@
     "format": "MP4 (H.264) 9:16",
     "fileSize": "~2.4MB",
     "video": "/reels/reels-44.mp4",
-    "duration": "8 sec"
+    "duration": "8 sec",
+    "scene": "Urban Japan at its most electric — sets a dynamic backdrop for any short-form creator.",
+    "usecases": [
+      "TikTok",
+      "AI Narration",
+      "YouTube Shorts"
+    ]
   },
   {
     "id": 45,
@@ -867,7 +945,13 @@
     "format": "MP4 (H.264) 9:16",
     "fileSize": "~2.2MB",
     "video": "/reels/reels-45.mp4",
-    "duration": "8 sec"
+    "duration": "8 sec",
+    "scene": "Tokyo after dark, lanterns glowing — perfect backdrop for lofi or city ambiance content.",
+    "usecases": [
+      "Lofi Background",
+      "TikTok",
+      "AI Narration"
+    ]
   },
   {
     "id": 46,
@@ -888,6 +972,12 @@
     "format": "MP4 (H.264) 9:16",
     "fileSize": "~1.7MB",
     "video": "/reels/reels-46.mp4",
-    "duration": "8 sec"
+    "duration": "8 sec",
+    "scene": "Sacred torii and cedar shadows — perfect backdrop for spiritual or mindfulness AI content.",
+    "usecases": [
+      "Meditation",
+      "AI Narration",
+      "Lofi Background"
+    ]
   }
 ]

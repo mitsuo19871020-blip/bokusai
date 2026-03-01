@@ -149,6 +149,8 @@ async function main() {
           tags: [...category.tags],
           image: imageUrl,
           description: prompt,
+          scene: pick(category.sceneTemplates),
+          usecases: [...category.usecases],
           resolution: category.resolution,
           format: category.format,
           fileSize: category.fileSize,
