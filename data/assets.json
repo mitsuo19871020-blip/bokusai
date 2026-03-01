@@ -2,11 +2,11 @@
   {
     "id": 10,
     "title": "Samurai's Tea Ceremony",
-    "type": "image",
+    "type": "video",
     "category": "Samurai",
     "price": 800,
     "tags": [
-      "4K",
+      "video",
       "samurai",
       "warrior",
       "historical"
@@ -20,17 +20,19 @@
       "YouTube Shorts"
     ],
     "resolution": "4096 × 2731 (4K)",
-    "format": "JPEG / PNG",
-    "fileSize": "~32MB"
+    "format": "MP4 (H.264) 9:16",
+    "fileSize": "~1.8MB",
+    "video": "/reels/reels-10.mp4",
+    "duration": "8 sec"
   },
   {
     "id": 11,
     "title": "Fuji at Dawn",
-    "type": "image",
+    "type": "video",
     "category": "Fuji",
     "price": 600,
     "tags": [
-      "4K",
+      "video",
       "fuji",
       "mountain",
       "landscape"
@@ -44,17 +46,19 @@
       "AI Narration"
     ],
     "resolution": "4096 × 2731 (4K)",
-    "format": "JPEG / PNG",
-    "fileSize": "~32MB"
+    "format": "MP4 (H.264) 9:16",
+    "fileSize": "~1.3MB",
+    "video": "/reels/reels-11.mp4",
+    "duration": "8 sec"
   },
   {
     "id": 12,
     "title": "Arashiyama Bamboo Grove",
-    "type": "image",
+    "type": "video",
     "category": "Kyoto",
     "price": 500,
     "tags": [
-      "4K",
+      "video",
       "kyoto",
       "bamboo",
       "nature"
@@ -68,17 +72,19 @@
       "YouTube Shorts"
     ],
     "resolution": "4096 × 2731 (4K)",
-    "format": "JPEG / PNG",
-    "fileSize": "~28MB"
+    "format": "MP4 (H.264) 9:16",
+    "fileSize": "~3.8MB",
+    "video": "/reels/reels-12.mp4",
+    "duration": "8 sec"
   },
   {
     "id": 13,
     "title": "Warrior on Horseback",
-    "type": "image",
+    "type": "video",
     "category": "Samurai",
     "price": 800,
     "tags": [
-      "4K",
+      "video",
       "samurai",
       "warrior",
       "historical"
@@ -92,17 +98,19 @@
       "AI Narration"
     ],
     "resolution": "4096 × 2731 (4K)",
-    "format": "JPEG / PNG",
-    "fileSize": "~35MB"
+    "format": "MP4 (H.264) 9:16",
+    "fileSize": "~1.8MB",
+    "video": "/reels/reels-13.mp4",
+    "duration": "8 sec"
   },
   {
     "id": 14,
     "title": "Edo Sumo Match",
-    "type": "image",
+    "type": "video",
     "category": "Edo",
     "price": 500,
     "tags": [
-      "4K",
+      "video",
       "historical",
       "edo",
       "sumo"
@@ -116,17 +124,19 @@
       "AI Narration"
     ],
     "resolution": "4096 × 2731 (4K)",
-    "format": "JPEG / PNG",
-    "fileSize": "~30MB"
+    "format": "MP4 (H.264) 9:16",
+    "fileSize": "~1.7MB",
+    "video": "/reels/reels-14.mp4",
+    "duration": "8 sec"
   },
   {
     "id": 15,
     "title": "Fuji at Golden Hour",
-    "type": "image",
+    "type": "video",
     "category": "Fuji",
     "price": 600,
     "tags": [
-      "4K",
+      "video",
       "fuji",
       "mountain",
       "landscape"
@@ -140,17 +150,19 @@
       "TikTok"
     ],
     "resolution": "4096 × 2731 (4K)",
-    "format": "JPEG / PNG",
-    "fileSize": "~32MB"
+    "format": "MP4 (H.264) 9:16",
+    "fileSize": "~1.9MB",
+    "video": "/reels/reels-15.mp4",
+    "duration": "8 sec"
   },
   {
     "id": 16,
     "title": "Tokyo Skyline at Night",
-    "type": "image",
+    "type": "video",
     "category": "Night",
     "price": 500,
     "tags": [
-      "4K",
+      "video",
       "night",
       "neon",
       "atmospheric"
@@ -164,17 +176,19 @@
       "B-Roll"
     ],
     "resolution": "4096 × 2731 (4K)",
-    "format": "JPEG / PNG",
-    "fileSize": "~28MB"
+    "format": "MP4 (H.264) 9:16",
+    "fileSize": "~2.1MB",
+    "video": "/reels/reels-16.mp4",
+    "duration": "8 sec"
   },
   {
     "id": 17,
     "title": "Edo Teahouse Morning",
-    "type": "image",
+    "type": "video",
     "category": "Edo",
     "price": 600,
     "tags": [
-      "4K",
+      "video",
       "historical",
       "edo",
       "teahouse"
@@ -188,17 +202,19 @@
       "B-Roll"
     ],
     "resolution": "4096 × 2731 (4K)",
-    "format": "JPEG / PNG",
-    "fileSize": "~30MB"
+    "format": "MP4 (H.264) 9:16",
+    "fileSize": "~1.7MB",
+    "video": "/reels/reels-17.mp4",
+    "duration": "8 sec"
   },
   {
     "id": 18,
     "title": "Fushimi Inari at Dawn",
-    "type": "image",
+    "type": "video",
     "category": "Kyoto",
     "price": 600,
     "tags": [
-      "4K",
+      "video",
       "kyoto",
       "shrine",
       "torii"
@@ -212,17 +228,19 @@
       "AI Narration"
     ],
     "resolution": "4096 × 2731 (4K)",
-    "format": "JPEG / PNG",
-    "fileSize": "~28MB"
+    "format": "MP4 (H.264) 9:16",
+    "fileSize": "~2.6MB",
+    "video": "/reels/reels-18.mp4",
+    "duration": "8 sec"
   },
   {
     "id": 19,
     "title": "Dragon of the Stormy Sea",
-    "type": "image",
+    "type": "video",
     "category": "Ukiyo-e",
     "price": 800,
     "tags": [
-      "4K",
+      "video",
       "ukiyo-e",
       "art",
       "dragon"
@@ -236,17 +254,19 @@
       "AI Narration"
     ],
     "resolution": "4096 × 2731 (4K)",
-    "format": "JPEG / PNG",
-    "fileSize": "~25MB"
+    "format": "MP4 (H.264) 9:16",
+    "fileSize": "~3.8MB",
+    "video": "/reels/reels-19.mp4",
+    "duration": "8 sec"
   },
   {
     "id": 20,
     "title": "Golden Pavilion Reflection",
-    "type": "image",
+    "type": "video",
     "category": "Kyoto",
     "price": 500,
     "tags": [
-      "4K",
+      "video",
       "kyoto",
       "temple",
       "reflection"
@@ -260,17 +280,19 @@
       "Meditation"
     ],
     "resolution": "4096 × 2731 (4K)",
-    "format": "JPEG / PNG",
-    "fileSize": "~28MB"
+    "format": "MP4 (H.264) 9:16",
+    "fileSize": "~2.5MB",
+    "video": "/reels/reels-20.mp4",
+    "duration": "8 sec"
   },
   {
     "id": 21,
     "title": "Geisha in Spring Garden",
-    "type": "image",
+    "type": "video",
     "category": "Ukiyo-e",
     "price": 300,
     "tags": [
-      "4K",
+      "video",
       "ukiyo-e",
       "art",
       "woodblock"
@@ -284,17 +306,19 @@
       "YouTube Shorts"
     ],
     "resolution": "4096 × 2731 (4K)",
-    "format": "JPEG / PNG",
-    "fileSize": "~25MB"
+    "format": "MP4 (H.264) 9:16",
+    "fileSize": "~2.6MB",
+    "video": "/reels/reels-21.mp4",
+    "duration": "8 sec"
   },
   {
     "id": 22,
     "title": "Samurai's Path",
-    "type": "image",
+    "type": "video",
     "category": "Edo",
     "price": 200,
     "tags": [
-      "4K",
+      "video",
       "historical",
       "edo",
       "japan"
@@ -308,17 +332,19 @@
       "YouTube Shorts"
     ],
     "resolution": "4096 × 2731 (4K)",
-    "format": "JPEG / PNG",
-    "fileSize": "~30MB"
+    "format": "MP4 (H.264) 9:16",
+    "fileSize": "~2.3MB",
+    "video": "/reels/reels-22.mp4",
+    "duration": "8 sec"
   },
   {
     "id": 23,
     "title": "Zen Garden Morning",
-    "type": "image",
+    "type": "video",
     "category": "Kyoto",
     "price": 200,
     "tags": [
-      "4K",
+      "video",
       "kyoto",
       "temple",
       "traditional"
@@ -332,17 +358,19 @@
       "AI Narration"
     ],
     "resolution": "4096 × 2731 (4K)",
-    "format": "JPEG / PNG",
-    "fileSize": "~28MB"
+    "format": "MP4 (H.264) 9:16",
+    "fileSize": "~2.2MB",
+    "video": "/reels/reels-23.mp4",
+    "duration": "8 sec"
   },
   {
     "id": 24,
     "title": "Castle Gate at Dawn",
-    "type": "image",
+    "type": "video",
     "category": "Edo",
     "price": 200,
     "tags": [
-      "4K",
+      "video",
       "historical",
       "edo",
       "japan"
@@ -356,17 +384,19 @@
       "AI Narration"
     ],
     "resolution": "4096 × 2731 (4K)",
-    "format": "JPEG / PNG",
-    "fileSize": "~30MB"
+    "format": "MP4 (H.264) 9:16",
+    "fileSize": "~1.6MB",
+    "video": "/reels/reels-24.mp4",
+    "duration": "8 sec"
   },
   {
     "id": 25,
     "title": "The Great Wave",
-    "type": "image",
+    "type": "video",
     "category": "Ukiyo-e",
     "price": 300,
     "tags": [
-      "4K",
+      "video",
       "ukiyo-e",
       "art",
       "woodblock"
@@ -380,17 +410,19 @@
       "TikTok"
     ],
     "resolution": "4096 × 2731 (4K)",
-    "format": "JPEG / PNG",
-    "fileSize": "~25MB"
+    "format": "MP4 (H.264) 9:16",
+    "fileSize": "~2.5MB",
+    "video": "/reels/reels-25.mp4",
+    "duration": "8 sec"
   },
   {
     "id": 26,
     "title": "Akihabara Glow",
-    "type": "image",
+    "type": "video",
     "category": "Shibuya",
     "price": 200,
     "tags": [
-      "4K",
+      "video",
       "shibuya",
       "modern",
       "tokyo"
@@ -404,17 +436,19 @@
       "B-Roll"
     ],
     "resolution": "4096 × 2731 (4K)",
-    "format": "JPEG / PNG",
-    "fileSize": "~30MB"
+    "format": "MP4 (H.264) 9:16",
+    "fileSize": "~2.7MB",
+    "video": "/reels/reels-26.mp4",
+    "duration": "8 sec"
   },
   {
     "id": 27,
     "title": "Mountain Onsen Dawn",
-    "type": "image",
+    "type": "video",
     "category": "Nature",
     "price": 200,
     "tags": [
-      "4K",
+      "video",
       "nature",
       "landscape",
       "japan"
@@ -428,17 +462,19 @@
       "Meditation"
     ],
     "resolution": "4096 × 2731 (4K)",
-    "format": "JPEG / PNG",
-    "fileSize": "~32MB"
+    "format": "MP4 (H.264) 9:16",
+    "fileSize": "~3.8MB",
+    "video": "/reels/reels-27.mp4",
+    "duration": "8 sec"
   },
   {
     "id": 28,
     "title": "Shibuya Crossing Night",
-    "type": "image",
+    "type": "video",
     "category": "Shibuya",
     "price": 200,
     "tags": [
-      "4K",
+      "video",
       "shibuya",
       "modern",
       "tokyo"
@@ -452,17 +488,19 @@
       "B-Roll"
     ],
     "resolution": "4096 × 2731 (4K)",
-    "format": "JPEG / PNG",
-    "fileSize": "~30MB"
+    "format": "MP4 (H.264) 9:16",
+    "fileSize": "~1.8MB",
+    "video": "/reels/reels-28.mp4",
+    "duration": "8 sec"
   },
   {
     "id": 29,
     "title": "Pagoda and Mountain",
-    "type": "image",
+    "type": "video",
     "category": "Fuji",
     "price": 200,
     "tags": [
-      "4K",
+      "video",
       "fuji",
       "mountain",
       "landscape"
@@ -476,17 +514,19 @@
       "AI Narration"
     ],
     "resolution": "576 × 1024 (9:16)",
-    "format": "JPEG / PNG",
-    "fileSize": "~8MB"
+    "format": "MP4 (H.264) 9:16",
+    "fileSize": "~1.6MB",
+    "video": "/reels/reels-29.mp4",
+    "duration": "8 sec"
   },
   {
     "id": 30,
     "title": "Sacred Peak in Winter",
-    "type": "image",
+    "type": "video",
     "category": "Fuji",
     "price": 200,
     "tags": [
-      "4K",
+      "video",
       "fuji",
       "mountain",
       "landscape"
@@ -500,17 +540,19 @@
       "Travel Content"
     ],
     "resolution": "576 × 1024 (9:16)",
-    "format": "JPEG / PNG",
-    "fileSize": "~8MB"
+    "format": "MP4 (H.264) 9:16",
+    "fileSize": "~1.6MB",
+    "video": "/reels/reels-30.mp4",
+    "duration": "8 sec"
   },
   {
     "id": 31,
     "title": "Autumn Campaign",
-    "type": "image",
+    "type": "video",
     "category": "Samurai",
     "price": 300,
     "tags": [
-      "4K",
+      "video",
       "samurai",
       "warrior",
       "historical"
@@ -524,8 +566,10 @@
       "AI Narration"
     ],
     "resolution": "576 × 1024 (9:16)",
-    "format": "JPEG / PNG",
-    "fileSize": "~8MB"
+    "format": "MP4 (H.264) 9:16",
+    "fileSize": "~2.1MB",
+    "video": "/reels/reels-31.mp4",
+    "duration": "8 sec"
   },
   {
     "id": 32,
