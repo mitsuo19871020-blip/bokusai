@@ -979,5 +979,78 @@
       "AI Narration",
       "Lofi Background"
     ]
+  },
+  {
+    "id": 47,
+    "title": "Furano Lavender",
+    "type": "image",
+    "category": "Nature",
+    "price": 190,
+    "tags": [
+      "9:16",
+      "nature",
+      "landscape",
+      "japan"
+    ],
+    "image": "/generated/japan-nature-1772407327630.jpg",
+    "description": "Japanese outdoor rotenburo onsen hot spring at dawn, steam rising from dark mineral water, autumn forest in full red and gold koyo surrounding stone bath, serene mountain valley, no text",
+    "scene": "Japan's untouched wilderness in one vertical frame — perfect for relaxation or nature content.",
+    "usecases": [
+      "Meditation",
+      "Lofi Background",
+      "AI Narration"
+    ],
+    "resolution": "576 × 1024 (9:16)",
+    "format": "JPEG / PNG",
+    "fileSize": "~8MB"
+  },
+  {
+    "id": 48,
+    "title": "Tokaido Travelers",
+    "type": "image",
+    "category": "Ukiyo-e",
+    "price": 290,
+    "tags": [
+      "9:16",
+      "ukiyo-e",
+      "art",
+      "woodblock"
+    ],
+    "image": "/generated/japan-ukiyo-e-1772407326190.jpg",
+    "description": "Hiroshige-style rain scene on Ohashi bridge, heavy vertical rain lines, silhouetted figures with bamboo umbrellas crossing wooden bridge, indigo and sepia palette, no text",
+    "scene": "The floating world of Edo, alive again — sets an artistic tone for any creator's story.",
+    "usecases": [
+      "AI Narration",
+      "Art",
+      "YouTube Shorts"
+    ],
+    "resolution": "576 × 1024 (9:16)",
+    "format": "JPEG / PNG",
+    "fileSize": "~8MB"
+  },
+  {
+    "id": 49,
+    "title": "Winter Vigil",
+    "type": "image",
+    "category": "Samurai",
+    "price": 390,
+    "tags": [
+      "9:16",
+      "samurai",
+      "warrior",
+      "historical",
+      "authentic"
+    ],
+    "image": "/generated/japan-samurai-1772407329066.jpg",
+    "description": "Edo period samurai retainer in black-lacquered tosei-gusoku full armor, kabuto helmet with kuwagata horns and shikoro neck guard, daisho katana-wakizashi pair thrust at left hip edge upward, cherry blossom castle courtyard, no text, historically accurate Japanese armor",
+    "scene": "The lone samurai at the edge of battle — sets the scene for legacy and courage narratives.",
+    "usecases": [
+      "AI Narration",
+      "History",
+      "TikTok"
+    ],
+    "resolution": "576 × 1024 (9:16)",
+    "format": "JPEG / PNG",
+    "fileSize": "~8MB"
   }
 ]
