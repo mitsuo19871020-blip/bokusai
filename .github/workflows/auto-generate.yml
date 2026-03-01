@@ -39,7 +39,8 @@ jobs:
       - name: Generate images
         env:
           HUGGINGFACE_API_KEY: ${{ secrets.HUGGINGFACE_API_KEY }}
-        run: node scripts/generate.js ${{ github.event.inputs.count || '10' }}
+          COUNT: ${{ github.event.inputs.count || '10' }}
+        run: node scripts/generate.js $COUNT
 
       - name: Check for new files
         id: check_changes
@@ -53,11 +54,12 @@ jobs:
 
       - name: Commit and push
         if: steps.check_changes.outputs.has_changes == 'true'
+        env:
+          COUNT: ${{ github.event.inputs.count || '10' }}
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/assets.json public/generated/
-          COUNT=${{ github.event.inputs.count || '10' }}
+          git add -A
           git commit -m "Add ${COUNT} new AI-generated assets [auto]"
           git push
 

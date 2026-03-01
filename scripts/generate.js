@@ -26,6 +26,16 @@ if (fs.existsSync(envPath)) {
 }
 const categories = require('./categories')
 
+// カテゴリーの必須フィールドを起動時に検証
+for (const cat of categories) {
+  if (!Array.isArray(cat.sceneTemplates) || cat.sceneTemplates.length === 0) {
+    throw new Error(`sceneTemplates が未定義または空です: ${cat.name}`)
+  }
+  if (!Array.isArray(cat.usecases) || cat.usecases.length === 0) {
+    throw new Error(`usecases が未定義または空です: ${cat.name}`)
+  }
+}
+
 const DATA_FILE = path.join(__dirname, '../data/assets.json')
 const MOCK_MODE = !process.env.HUGGINGFACE_API_KEY
 
@@ -149,8 +159,8 @@ async function main() {
           tags: [...category.tags],
           image: imageUrl,
           description: prompt,
-          scene: pick(category.sceneTemplates),
-          usecases: [...category.usecases],
+          scene: category.sceneTemplates ? pick(category.sceneTemplates) : null,
+          usecases: category.usecases ? [...category.usecases] : [],
           resolution: category.resolution,
           format: category.format,
           fileSize: category.fileSize,
