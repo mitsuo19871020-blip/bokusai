@@ -675,5 +675,189 @@
     "fileSize": "~2.4MB",
     "video": "/reels/reels-36.mp4",
     "duration": "8 sec"
+  },
+  {
+    "id": 37,
+    "title": "Generals' Duel",
+    "type": "image",
+    "category": "Sengoku",
+    "price": 390,
+    "tags": [
+      "9:16",
+      "sengoku",
+      "samurai",
+      "battle",
+      "historical",
+      "authentic"
+    ],
+    "image": "/generated/japan-sengoku-1772379803479.jpg",
+    "description": "Himeji-style white plaster castle tower (tenshu) rising above stone ishigaki foundation, surrounded by cherry blossoms in full bloom, early morning mist, period-accurate Sengoku architecture, no text",
+    "resolution": "576 × 1024 (9:16)",
+    "format": "JPEG / PNG",
+    "fileSize": "~8MB"
+  },
+  {
+    "id": 38,
+    "title": "Bamboo Grove Silence",
+    "type": "image",
+    "category": "Kyoto",
+    "price": 190,
+    "tags": [
+      "9:16",
+      "kyoto",
+      "temple",
+      "traditional"
+    ],
+    "image": "/generated/japan-kyoto-1772379804801.jpg",
+    "description": "Pontocho alley Kyoto at night, narrow cobblestone lane between traditional machiya, red paper lanterns glowing warm, wet stone reflecting orange light, no readable signs",
+    "resolution": "576 × 1024 (9:16)",
+    "format": "JPEG / PNG",
+    "fileSize": "~8MB"
+  },
+  {
+    "id": 39,
+    "title": "Shinsengumi Night Patrol",
+    "type": "image",
+    "category": "Bakumatsu",
+    "price": 390,
+    "tags": [
+      "9:16",
+      "bakumatsu",
+      "samurai",
+      "historical",
+      "authentic"
+    ],
+    "image": "/generated/japan-bakumatsu-1772379806149.jpg",
+    "description": "Group of Shinsengumi in pale blue haori coats patrolling moonlit Gion district stone path, traditional machiya buildings, wet cobblestones, tense atmosphere, historically accurate, no text",
+    "resolution": "576 × 1024 (9:16)",
+    "format": "JPEG / PNG",
+    "fileSize": "~8MB"
+  },
+  {
+    "id": 40,
+    "title": "Fuji in the Rice Fields",
+    "type": "image",
+    "category": "Fuji",
+    "price": 190,
+    "tags": [
+      "9:16",
+      "fuji",
+      "mountain",
+      "landscape"
+    ],
+    "image": "/generated/japan-fuji-1772379807576.jpg",
+    "description": "Mount Fuji at night, Milky Way galaxy arcing above the volcanic peak, star trails in circular motion, long exposure, no text",
+    "resolution": "576 × 1024 (9:16)",
+    "format": "JPEG / PNG",
+    "fileSize": "~8MB"
+  },
+  {
+    "id": 41,
+    "title": "Chashitsu Morning",
+    "type": "image",
+    "category": "Edo",
+    "price": 190,
+    "tags": [
+      "9:16",
+      "historical",
+      "edo",
+      "japan"
+    ],
+    "image": "/generated/japan-edo-1772379808927.jpg",
+    "description": "Traditional Japanese teahouse (chashitsu) in Edo era roji garden, stepping stones, bamboo fence, tatami visible through open shoji, soft morning light, no text",
+    "resolution": "576 × 1024 (9:16)",
+    "format": "JPEG / PNG",
+    "fileSize": "~8MB"
+  },
+  {
+    "id": 42,
+    "title": "Warrior at the Gate",
+    "type": "image",
+    "category": "Samurai",
+    "price": 390,
+    "tags": [
+      "9:16",
+      "samurai",
+      "warrior",
+      "historical",
+      "authentic"
+    ],
+    "image": "/generated/japan-samurai-1772379810310.jpg",
+    "description": "Ronin silhouette against winter sunset at snow-covered wooden bridge, single katana on left hip, chonmage visible in profile, fog rising from river below, cinematic vertical composition, no text",
+    "resolution": "576 × 1024 (9:16)",
+    "format": "JPEG / PNG",
+    "fileSize": "~8MB"
+  },
+  {
+    "id": 43,
+    "title": "Sumida River Twilight",
+    "type": "image",
+    "category": "Edo",
+    "price": 190,
+    "tags": [
+      "9:16",
+      "historical",
+      "edo",
+      "japan"
+    ],
+    "image": "/generated/japan-edo-1772379810400.jpg",
+    "description": "Edo period sumo training stable (heya) exterior, wrestlers in silhouette practicing in courtyard, wooden architecture, early morning mist, no text",
+    "resolution": "576 × 1024 (9:16)",
+    "format": "JPEG / PNG",
+    "fileSize": "~8MB"
+  },
+  {
+    "id": 44,
+    "title": "Shinjuku Canyon",
+    "type": "image",
+    "category": "Shibuya",
+    "price": 190,
+    "tags": [
+      "9:16",
+      "shibuya",
+      "modern",
+      "tokyo"
+    ],
+    "image": "/generated/japan-shibuya-1772379811759.jpg",
+    "description": "Akihabara Electric Town at night, glowing LEDs and anime screen displays, futuristic urban canyon, vertical neon corridor, no legible text, atmospheric",
+    "resolution": "576 × 1024 (9:16)",
+    "format": "JPEG / PNG",
+    "fileSize": "~8MB"
+  },
+  {
+    "id": 45,
+    "title": "Tokyo Tower Night View",
+    "type": "image",
+    "category": "Night",
+    "price": 190,
+    "tags": [
+      "9:16",
+      "night",
+      "neon",
+      "atmospheric"
+    ],
+    "image": "/generated/japan-night-1772379813121.jpg",
+    "description": "Japanese summer matsuri festival at night, wooden yatai food stalls with warm golden noren curtains, silhouetted crowd in yukata, no signs visible, festive vertical scene",
+    "resolution": "576 × 1024 (9:16)",
+    "format": "JPEG / PNG",
+    "fileSize": "~8MB"
+  },
+  {
+    "id": 46,
+    "title": "Floating Torii at Sunset",
+    "type": "image",
+    "category": "Shrine",
+    "price": 190,
+    "tags": [
+      "9:16",
+      "shrine",
+      "spiritual",
+      "traditional"
+    ],
+    "image": "/generated/japan-shrine-1772379814567.jpg",
+    "description": "Meiji Jingu shrine inner garden approach, enormous cedar torii gate, gravel path between towering ancient trees, solitary priest in white and purple robes, no text",
+    "resolution": "576 × 1024 (9:16)",
+    "format": "JPEG / PNG",
+    "fileSize": "~8MB"
   }
 ]
