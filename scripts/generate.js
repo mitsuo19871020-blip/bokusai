@@ -112,47 +112,55 @@ async function main() {
 
   const newAssets = []
 
-  for (let i = 0; i < count; i++) {
+  // IDとタイトルを先に確定（並列実行時の競合を避けるため）
+  const jobs = Array.from({ length: count }, (_, i) => {
     const category = pick(categories)
-    console.log(`[${i + 1}/${count}] ${category.nameJa}（${category.name}）を生成中...`)
+    const title = generateTitle(category, usedTitles)
+    usedTitles.add(title)
+    const id = nextId++
+    return { i, id, category, title }
+  })
 
-    try {
-      const imageUrl = MOCK_MODE
-        ? await generateMockImage(category)
-        : await generateRealImage(category)
+  // 3枚ずつ並列生成（無料枠のレート制限対策）
+  const CONCURRENCY = 3
+  for (let i = 0; i < jobs.length; i += CONCURRENCY) {
+    const batch = jobs.slice(i, i + CONCURRENCY)
+    console.log(`[${i + 1}〜${Math.min(i + CONCURRENCY, count)}/${count}] 並列生成中...`)
 
-      const title = generateTitle(category, usedTitles)
-      usedTitles.add(title)
+    const results = await Promise.allSettled(
+      batch.map(async (job) => {
+        const imageUrl = MOCK_MODE
+          ? await generateMockImage(job.category)
+          : await generateRealImage(job.category)
+        return { ...job, imageUrl }
+      })
+    )
 
-      const prompt = pick(category.prompts)
-
-      const newAsset = {
-        id: nextId++,
-        title,
-        type: category.type,
-        category: category.name,
-        price: category.price,
-        tags: [...category.tags],
-        image: imageUrl,
-        description: prompt,
-        resolution: category.resolution,
-        format: category.format,
-        fileSize: category.fileSize,
-      }
-
-      newAssets.push(newAsset)
-      assets.push(newAsset)
-
-      console.log(`   ✅ 追加: "${title}"`)
-      if (MOCK_MODE) {
-        console.log(`   📷 画像: ${imageUrl.slice(0, 60)}...`)
+    for (const result of results) {
+      if (result.status === 'fulfilled') {
+        const { id, title, category, imageUrl } = result.value
+        const prompt = pick(category.prompts)
+        const newAsset = {
+          id,
+          title,
+          type: category.type,
+          category: category.name,
+          price: category.price,
+          tags: [...category.tags],
+          image: imageUrl,
+          description: prompt,
+          resolution: category.resolution,
+          format: category.format,
+          fileSize: category.fileSize,
+        }
+        newAssets.push(newAsset)
+        assets.push(newAsset)
+        console.log(`   ✅ [${id}] "${title}" ${MOCK_MODE ? '' : '→ ' + imageUrl}`)
       } else {
-        console.log(`   💾 保存: ${imageUrl}`)
+        console.error(`   ❌ エラー: ${result.reason.message}`)
       }
-      console.log()
-    } catch (err) {
-      console.error(`   ❌ エラー: ${err.message}\n`)
     }
+    console.log()
   }
 
   // JSONファイルに書き込む

@@ -9,7 +9,7 @@ on:
       count:
         description: '生成する画像の枚数'
         required: false
-        default: '5'
+        default: '10'
         type: string
 
 permissions:
@@ -39,7 +39,7 @@ jobs:
       - name: Generate images
         env:
           HUGGINGFACE_API_KEY: ${{ secrets.HUGGINGFACE_API_KEY }}
-        run: node scripts/generate.js ${{ github.event.inputs.count || '5' }}
+        run: node scripts/generate.js ${{ github.event.inputs.count || '10' }}
 
       - name: Check for new files
         id: check_changes
@@ -77,7 +77,7 @@ jobs:
             bokusai 画像生成ワークフローが終了しました。
 
             ステータス: ${{ job.status }}
-            生成枚数: ${{ github.event.inputs.count || '5' }} 枚
+            生成枚数: ${{ github.event.inputs.count || '10' }} 枚
             実行日時: ${{ github.run_started_at }}
 
             詳細はこちら:
