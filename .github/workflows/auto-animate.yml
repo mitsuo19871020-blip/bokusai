@@ -29,6 +29,9 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
+      - name: Install FFmpeg
+        run: sudo apt-get install -y ffmpeg
+
       - name: Generate reels videos (FFmpeg・無料)
         run: node scripts/make-reels.js
 

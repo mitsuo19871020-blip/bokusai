@@ -77,6 +77,12 @@ for (const asset of targets) {
     continue
   }
 
+  if (fs.existsSync(outputPath)) {
+    console.log(`  [${asset.id}] ${asset.title} ... ⏭️  既存ファイルをスキップ`)
+    skip++
+    continue
+  }
+
   // Ken Burns zoom-in + 9:16 (or 1:1) crop + fade in/out
   const filters = [
     // 出力サイズにスケール（はみ出しOK、アスペクト維持）
