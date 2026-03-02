@@ -41,6 +41,12 @@ export default function Navbar() {
             Free Samples
           </Link>
           <Link
+            href="/friends"
+            className="text-white/70 hover:text-white text-sm tracking-wide transition-colors"
+          >
+            Friends
+          </Link>
+          <Link
             href="/browse"
             className="bg-red-600 hover:bg-red-500 text-white text-sm px-5 py-2 rounded transition-colors tracking-wide"
           >
@@ -72,6 +78,7 @@ export default function Navbar() {
           <Link href="/pricing" className="text-white/70 hover:text-white text-sm tracking-wide">Pricing</Link>
           <Link href="/about" className="text-white/70 hover:text-white text-sm tracking-wide">About</Link>
           <Link href="/samples" className="text-green-400 text-sm tracking-wide font-medium">Free Samples</Link>
+          <Link href="/friends" className="text-white/70 text-sm tracking-wide">Friends</Link>
           <Link href="/browse" className="bg-red-600 text-white text-sm px-5 py-2 rounded text-center">
             Start Browsing
           </Link>
