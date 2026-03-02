@@ -126,7 +126,6 @@ export default function SetsPage() {
                                   src={img.url}
                                   alt={img.label}
                                   className="w-full h-full object-cover"
-                                  onError={(e) => { (e.target as HTMLImageElement).style.display = 'none' }}
                                 />
                                 <div className="absolute bottom-0 left-0 right-0 bg-black/60 text-white/60 text-[9px] text-center py-0.5 leading-tight">
                                   {img.lighting}

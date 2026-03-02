@@ -76,7 +76,6 @@ export default function SetDetailPage({ params }: { params: { id: string } }) {
                           src={img.url}
                           alt={img.label}
                           className="w-full h-full object-cover"
-                          onError={(e) => { (e.target as HTMLImageElement).style.display = 'none' }}
                         />
                       </div>
                       {/* Overlay label */}

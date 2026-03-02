@@ -94,7 +94,6 @@ export default function PacksPage() {
                               src={asset.image}
                               alt={asset.title}
                               className="w-full h-full object-cover"
-                              onError={(e) => { (e.target as HTMLImageElement).style.display = 'none' }}
                             />
                             <div className="absolute inset-0 bg-black/20 hover:bg-black/10 transition-colors" />
                           </Link>
