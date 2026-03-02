@@ -983,10 +983,11 @@
   {
     "id": 47,
     "title": "Furano Lavender",
-    "type": "image",
+    "type": "video",
     "category": "Nature",
     "price": 190,
     "tags": [
+      "video",
       "9:16",
       "nature",
       "landscape",
@@ -1001,16 +1002,19 @@
       "AI Narration"
     ],
     "resolution": "576 × 1024 (9:16)",
-    "format": "JPEG / PNG",
-    "fileSize": "~8MB"
+    "format": "MP4 (H.264) 9:16",
+    "fileSize": "~3.4MB",
+    "video": "/reels/reels-47.mp4",
+    "duration": "8 sec"
   },
   {
     "id": 48,
     "title": "Tokaido Travelers",
-    "type": "image",
+    "type": "video",
     "category": "Ukiyo-e",
     "price": 290,
     "tags": [
+      "video",
       "9:16",
       "ukiyo-e",
       "art",
@@ -1025,16 +1029,19 @@
       "YouTube Shorts"
     ],
     "resolution": "576 × 1024 (9:16)",
-    "format": "JPEG / PNG",
-    "fileSize": "~8MB"
+    "format": "MP4 (H.264) 9:16",
+    "fileSize": "~2.6MB",
+    "video": "/reels/reels-48.mp4",
+    "duration": "8 sec"
   },
   {
     "id": 49,
     "title": "Winter Vigil",
-    "type": "image",
+    "type": "video",
     "category": "Samurai",
     "price": 390,
     "tags": [
+      "video",
       "9:16",
       "samurai",
       "warrior",
@@ -1050,16 +1057,19 @@
       "TikTok"
     ],
     "resolution": "576 × 1024 (9:16)",
-    "format": "JPEG / PNG",
-    "fileSize": "~8MB"
+    "format": "MP4 (H.264) 9:16",
+    "fileSize": "~2.4MB",
+    "video": "/reels/reels-49.mp4",
+    "duration": "8 sec"
   },
   {
     "id": 50,
     "title": "Asakusa Before Dawn",
-    "type": "image",
+    "type": "video",
     "category": "Edo",
     "price": 190,
     "tags": [
+      "video",
       "9:16",
       "historical",
       "edo",
@@ -1074,16 +1084,19 @@
       "YouTube Shorts"
     ],
     "resolution": "576 × 1024 (9:16)",
-    "format": "JPEG / PNG",
-    "fileSize": "~8MB"
+    "format": "MP4 (H.264) 9:16",
+    "fileSize": "~2.1MB",
+    "video": "/reels/reels-50.mp4",
+    "duration": "8 sec"
   },
   {
     "id": 51,
     "title": "Armor of the Edo Clan",
-    "type": "image",
+    "type": "video",
     "category": "Samurai",
     "price": 390,
     "tags": [
+      "video",
       "9:16",
       "samurai",
       "warrior",
@@ -1099,16 +1112,19 @@
       "TikTok"
     ],
     "resolution": "576 × 1024 (9:16)",
-    "format": "JPEG / PNG",
-    "fileSize": "~8MB"
+    "format": "MP4 (H.264) 9:16",
+    "fileSize": "~1.5MB",
+    "video": "/reels/reels-51.mp4",
+    "duration": "8 sec"
   },
   {
     "id": 52,
     "title": "Dawn of a New Era",
-    "type": "image",
+    "type": "video",
     "category": "Bakumatsu",
     "price": 390,
     "tags": [
+      "video",
       "9:16",
       "bakumatsu",
       "samurai",
@@ -1124,16 +1140,19 @@
       "YouTube Shorts"
     ],
     "resolution": "576 × 1024 (9:16)",
-    "format": "JPEG / PNG",
-    "fileSize": "~8MB"
+    "format": "MP4 (H.264) 9:16",
+    "fileSize": "~2.3MB",
+    "video": "/reels/reels-52.mp4",
+    "duration": "8 sec"
   },
   {
     "id": 53,
     "title": "Castle Gate at Sunrise",
-    "type": "image",
+    "type": "video",
     "category": "Edo",
     "price": 190,
     "tags": [
+      "video",
       "9:16",
       "historical",
       "edo",
@@ -1148,16 +1167,19 @@
       "YouTube Shorts"
     ],
     "resolution": "576 × 1024 (9:16)",
-    "format": "JPEG / PNG",
-    "fileSize": "~8MB"
+    "format": "MP4 (H.264) 9:16",
+    "fileSize": "~1.9MB",
+    "video": "/reels/reels-53.mp4",
+    "duration": "8 sec"
   },
   {
     "id": 54,
     "title": "Nihonbashi at Dusk",
-    "type": "image",
+    "type": "video",
     "category": "Edo",
     "price": 190,
     "tags": [
+      "video",
       "9:16",
       "historical",
       "edo",
@@ -1172,16 +1194,19 @@
       "YouTube Shorts"
     ],
     "resolution": "576 × 1024 (9:16)",
-    "format": "JPEG / PNG",
-    "fileSize": "~8MB"
+    "format": "MP4 (H.264) 9:16",
+    "fileSize": "~2.2MB",
+    "video": "/reels/reels-54.mp4",
+    "duration": "8 sec"
   },
   {
     "id": 55,
     "title": "Izakaya Alley at Midnight",
-    "type": "image",
+    "type": "video",
     "category": "Night",
     "price": 190,
     "tags": [
+      "video",
       "9:16",
       "night",
       "neon",
@@ -1196,16 +1221,19 @@
       "AI Narration"
     ],
     "resolution": "576 × 1024 (9:16)",
-    "format": "JPEG / PNG",
-    "fileSize": "~8MB"
+    "format": "MP4 (H.264) 9:16",
+    "fileSize": "~2.3MB",
+    "video": "/reels/reels-55.mp4",
+    "duration": "8 sec"
   },
   {
     "id": 56,
     "title": "The Last Ronin",
-    "type": "image",
+    "type": "video",
     "category": "Samurai",
     "price": 390,
     "tags": [
+      "video",
       "9:16",
       "samurai",
       "warrior",
@@ -1221,16 +1249,19 @@
       "TikTok"
     ],
     "resolution": "576 × 1024 (9:16)",
-    "format": "JPEG / PNG",
-    "fileSize": "~8MB"
+    "format": "MP4 (H.264) 9:16",
+    "fileSize": "~2.4MB",
+    "video": "/reels/reels-56.mp4",
+    "duration": "8 sec"
   },
   {
     "id": 57,
     "title": "The Last Shishi",
-    "type": "image",
+    "type": "video",
     "category": "Bakumatsu",
     "price": 390,
     "tags": [
+      "video",
       "9:16",
       "bakumatsu",
       "samurai",
@@ -1246,16 +1277,19 @@
       "YouTube Shorts"
     ],
     "resolution": "576 × 1024 (9:16)",
-    "format": "JPEG / PNG",
-    "fileSize": "~8MB"
+    "format": "MP4 (H.264) 9:16",
+    "fileSize": "~1.8MB",
+    "video": "/reels/reels-57.mp4",
+    "duration": "8 sec"
   },
   {
     "id": 58,
     "title": "Odaiba Rainbow Night",
-    "type": "image",
+    "type": "video",
     "category": "Shibuya",
     "price": 190,
     "tags": [
+      "video",
       "9:16",
       "shibuya",
       "modern",
@@ -1270,16 +1304,19 @@
       "YouTube Shorts"
     ],
     "resolution": "576 × 1024 (9:16)",
-    "format": "JPEG / PNG",
-    "fileSize": "~8MB"
+    "format": "MP4 (H.264) 9:16",
+    "fileSize": "~2.2MB",
+    "video": "/reels/reels-58.mp4",
+    "duration": "8 sec"
   },
   {
     "id": 59,
     "title": "Golden Temple Reflection",
-    "type": "image",
+    "type": "video",
     "category": "Kyoto",
     "price": 190,
     "tags": [
+      "video",
       "9:16",
       "kyoto",
       "temple",
@@ -1294,16 +1331,19 @@
       "YouTube Shorts"
     ],
     "resolution": "576 × 1024 (9:16)",
-    "format": "JPEG / PNG",
-    "fileSize": "~8MB"
+    "format": "MP4 (H.264) 9:16",
+    "fileSize": "~2.6MB",
+    "video": "/reels/reels-59.mp4",
+    "duration": "8 sec"
   },
   {
     "id": 60,
     "title": "Edo Bathhouse Night",
-    "type": "image",
+    "type": "video",
     "category": "Edo",
     "price": 190,
     "tags": [
+      "video",
       "9:16",
       "historical",
       "edo",
@@ -1318,16 +1358,19 @@
       "YouTube Shorts"
     ],
     "resolution": "576 × 1024 (9:16)",
-    "format": "JPEG / PNG",
-    "fileSize": "~8MB"
+    "format": "MP4 (H.264) 9:16",
+    "fileSize": "~1.6MB",
+    "video": "/reels/reels-60.mp4",
+    "duration": "8 sec"
   },
   {
     "id": 61,
     "title": "Ryoan-ji Morning",
-    "type": "image",
+    "type": "video",
     "category": "Kyoto",
     "price": 190,
     "tags": [
+      "video",
       "9:16",
       "kyoto",
       "temple",
@@ -1342,16 +1385,19 @@
       "YouTube Shorts"
     ],
     "resolution": "576 × 1024 (9:16)",
-    "format": "JPEG / PNG",
-    "fileSize": "~8MB"
+    "format": "MP4 (H.264) 9:16",
+    "fileSize": "~2.0MB",
+    "video": "/reels/reels-61.mp4",
+    "duration": "8 sec"
   },
   {
     "id": 62,
     "title": "White Castle in Bloom",
-    "type": "image",
+    "type": "video",
     "category": "Sengoku",
     "price": 390,
     "tags": [
+      "video",
       "9:16",
       "sengoku",
       "samurai",
@@ -1368,16 +1414,19 @@
       "TikTok"
     ],
     "resolution": "576 × 1024 (9:16)",
-    "format": "JPEG / PNG",
-    "fileSize": "~8MB"
+    "format": "MP4 (H.264) 9:16",
+    "fileSize": "~2.8MB",
+    "video": "/reels/reels-62.mp4",
+    "duration": "8 sec"
   },
   {
     "id": 63,
     "title": "March of the Ashigaru",
-    "type": "image",
+    "type": "video",
     "category": "Sengoku",
     "price": 390,
     "tags": [
+      "video",
       "9:16",
       "sengoku",
       "samurai",
@@ -1394,16 +1443,19 @@
       "TikTok"
     ],
     "resolution": "576 × 1024 (9:16)",
-    "format": "JPEG / PNG",
-    "fileSize": "~8MB"
+    "format": "MP4 (H.264) 9:16",
+    "fileSize": "~1.9MB",
+    "video": "/reels/reels-63.mp4",
+    "duration": "8 sec"
   },
   {
     "id": 64,
     "title": "Chashitsu Morning 6902",
-    "type": "image",
+    "type": "video",
     "category": "Edo",
     "price": 190,
     "tags": [
+      "video",
       "9:16",
       "historical",
       "edo",
@@ -1418,16 +1470,19 @@
       "YouTube Shorts"
     ],
     "resolution": "576 × 1024 (9:16)",
-    "format": "JPEG / PNG",
-    "fileSize": "~8MB"
+    "format": "MP4 (H.264) 9:16",
+    "fileSize": "~1.6MB",
+    "video": "/reels/reels-64.mp4",
+    "duration": "8 sec"
   },
   {
     "id": 65,
     "title": "Momiji Garden",
-    "type": "image",
+    "type": "video",
     "category": "Nature",
     "price": 190,
     "tags": [
+      "video",
       "9:16",
       "nature",
       "landscape",
@@ -1442,16 +1497,19 @@
       "AI Narration"
     ],
     "resolution": "576 × 1024 (9:16)",
-    "format": "JPEG / PNG",
-    "fileSize": "~8MB"
+    "format": "MP4 (H.264) 9:16",
+    "fileSize": "~2.4MB",
+    "video": "/reels/reels-65.mp4",
+    "duration": "8 sec"
   },
   {
     "id": 66,
     "title": "Sumida River Twilight 6902",
-    "type": "image",
+    "type": "video",
     "category": "Edo",
     "price": 190,
     "tags": [
+      "video",
       "9:16",
       "historical",
       "edo",
@@ -1466,16 +1524,19 @@
       "YouTube Shorts"
     ],
     "resolution": "576 × 1024 (9:16)",
-    "format": "JPEG / PNG",
-    "fileSize": "~8MB"
+    "format": "MP4 (H.264) 9:16",
+    "fileSize": "~2.3MB",
+    "video": "/reels/reels-66.mp4",
+    "duration": "8 sec"
   },
   {
     "id": 67,
     "title": "Tanada Golden Light",
-    "type": "image",
+    "type": "video",
     "category": "Nature",
     "price": 190,
     "tags": [
+      "video",
       "9:16",
       "nature",
       "landscape",
@@ -1490,16 +1551,19 @@
       "AI Narration"
     ],
     "resolution": "576 × 1024 (9:16)",
-    "format": "JPEG / PNG",
-    "fileSize": "~8MB"
+    "format": "MP4 (H.264) 9:16",
+    "fileSize": "~2.1MB",
+    "video": "/reels/reels-67.mp4",
+    "duration": "8 sec"
   },
   {
     "id": 68,
     "title": "Harajuku Golden Hour",
-    "type": "image",
+    "type": "video",
     "category": "Shibuya",
     "price": 190,
     "tags": [
+      "video",
       "9:16",
       "shibuya",
       "modern",
@@ -1514,16 +1578,19 @@
       "YouTube Shorts"
     ],
     "resolution": "576 × 1024 (9:16)",
-    "format": "JPEG / PNG",
-    "fileSize": "~8MB"
+    "format": "MP4 (H.264) 9:16",
+    "fileSize": "~2.2MB",
+    "video": "/reels/reels-68.mp4",
+    "duration": "8 sec"
   },
   {
     "id": 69,
     "title": "Castle Under Fire",
-    "type": "image",
+    "type": "video",
     "category": "Sengoku",
     "price": 390,
     "tags": [
+      "video",
       "9:16",
       "sengoku",
       "samurai",
@@ -1540,16 +1607,19 @@
       "TikTok"
     ],
     "resolution": "576 × 1024 (9:16)",
-    "format": "JPEG / PNG",
-    "fileSize": "~8MB"
+    "format": "MP4 (H.264) 9:16",
+    "fileSize": "~1.9MB",
+    "video": "/reels/reels-69.mp4",
+    "duration": "8 sec"
   },
   {
     "id": 70,
     "title": "Kneeling Before the Shrine",
-    "type": "image",
+    "type": "video",
     "category": "Samurai",
     "price": 390,
     "tags": [
+      "video",
       "9:16",
       "samurai",
       "warrior",
@@ -1565,16 +1635,19 @@
       "TikTok"
     ],
     "resolution": "576 × 1024 (9:16)",
-    "format": "JPEG / PNG",
-    "fileSize": "~8MB"
+    "format": "MP4 (H.264) 9:16",
+    "fileSize": "~2.4MB",
+    "video": "/reels/reels-70.mp4",
+    "duration": "8 sec"
   },
   {
     "id": 71,
     "title": "Pontocho Rain Duel",
-    "type": "image",
+    "type": "video",
     "category": "Bakumatsu",
     "price": 390,
     "tags": [
+      "video",
       "9:16",
       "bakumatsu",
       "samurai",
@@ -1590,16 +1663,19 @@
       "YouTube Shorts"
     ],
     "resolution": "576 × 1024 (9:16)",
-    "format": "JPEG / PNG",
-    "fileSize": "~8MB"
+    "format": "MP4 (H.264) 9:16",
+    "fileSize": "~2.0MB",
+    "video": "/reels/reels-71.mp4",
+    "duration": "8 sec"
   },
   {
     "id": 72,
     "title": "Above the Clouds",
-    "type": "image",
+    "type": "video",
     "category": "Fuji",
     "price": 190,
     "tags": [
+      "video",
       "9:16",
       "fuji",
       "mountain",
@@ -1614,16 +1690,19 @@
       "Lofi Background"
     ],
     "resolution": "576 × 1024 (9:16)",
-    "format": "JPEG / PNG",
-    "fileSize": "~8MB"
+    "format": "MP4 (H.264) 9:16",
+    "fileSize": "~2.1MB",
+    "video": "/reels/reels-72.mp4",
+    "duration": "8 sec"
   },
   {
     "id": 73,
     "title": "The Warlord's Stand",
-    "type": "image",
+    "type": "video",
     "category": "Sengoku",
     "price": 390,
     "tags": [
+      "video",
       "9:16",
       "sengoku",
       "samurai",
@@ -1640,16 +1719,19 @@
       "TikTok"
     ],
     "resolution": "576 × 1024 (9:16)",
-    "format": "JPEG / PNG",
-    "fileSize": "~8MB"
+    "format": "MP4 (H.264) 9:16",
+    "fileSize": "~2.4MB",
+    "video": "/reels/reels-73.mp4",
+    "duration": "8 sec"
   },
   {
     "id": 74,
     "title": "Field of Fallen Banners",
-    "type": "image",
+    "type": "video",
     "category": "Sengoku",
     "price": 390,
     "tags": [
+      "video",
       "9:16",
       "sengoku",
       "samurai",
@@ -1666,16 +1748,19 @@
       "TikTok"
     ],
     "resolution": "576 × 1024 (9:16)",
-    "format": "JPEG / PNG",
-    "fileSize": "~8MB"
+    "format": "MP4 (H.264) 9:16",
+    "fileSize": "~2.6MB",
+    "video": "/reels/reels-74.mp4",
+    "duration": "8 sec"
   },
   {
     "id": 75,
     "title": "Autumn Pilgrimage",
-    "type": "image",
+    "type": "video",
     "category": "Shrine",
     "price": 190,
     "tags": [
+      "video",
       "9:16",
       "shrine",
       "spiritual",
@@ -1690,16 +1775,19 @@
       "Lofi Background"
     ],
     "resolution": "576 × 1024 (9:16)",
-    "format": "JPEG / PNG",
-    "fileSize": "~8MB"
+    "format": "MP4 (H.264) 9:16",
+    "fileSize": "~2.4MB",
+    "video": "/reels/reels-75.mp4",
+    "duration": "8 sec"
   },
   {
     "id": 76,
     "title": "Pontocho Night",
-    "type": "image",
+    "type": "video",
     "category": "Kyoto",
     "price": 190,
     "tags": [
+      "video",
       "9:16",
       "kyoto",
       "temple",
@@ -1714,16 +1802,19 @@
       "YouTube Shorts"
     ],
     "resolution": "576 × 1024 (9:16)",
-    "format": "JPEG / PNG",
-    "fileSize": "~8MB"
+    "format": "MP4 (H.264) 9:16",
+    "fileSize": "~2.6MB",
+    "video": "/reels/reels-76.mp4",
+    "duration": "8 sec"
   },
   {
     "id": 77,
     "title": "Mountain Rotenburo Dawn",
-    "type": "image",
+    "type": "video",
     "category": "Nature",
     "price": 190,
     "tags": [
+      "video",
       "9:16",
       "nature",
       "landscape",
@@ -1738,16 +1829,19 @@
       "AI Narration"
     ],
     "resolution": "576 × 1024 (9:16)",
-    "format": "JPEG / PNG",
-    "fileSize": "~8MB"
+    "format": "MP4 (H.264) 9:16",
+    "fileSize": "~2.0MB",
+    "video": "/reels/reels-77.mp4",
+    "duration": "8 sec"
   },
   {
     "id": 78,
     "title": "Kerama Turquoise",
-    "type": "image",
+    "type": "video",
     "category": "Nature",
     "price": 190,
     "tags": [
+      "video",
       "9:16",
       "nature",
       "landscape",
@@ -1762,16 +1856,19 @@
       "AI Narration"
     ],
     "resolution": "576 × 1024 (9:16)",
-    "format": "JPEG / PNG",
-    "fileSize": "~8MB"
+    "format": "MP4 (H.264) 9:16",
+    "fileSize": "~2.1MB",
+    "video": "/reels/reels-78.mp4",
+    "duration": "8 sec"
   },
   {
     "id": 79,
     "title": "Bijin-ga in Bloom",
-    "type": "image",
+    "type": "video",
     "category": "Ukiyo-e",
     "price": 290,
     "tags": [
+      "video",
       "9:16",
       "ukiyo-e",
       "art",
@@ -1786,16 +1883,19 @@
       "YouTube Shorts"
     ],
     "resolution": "576 × 1024 (9:16)",
-    "format": "JPEG / PNG",
-    "fileSize": "~8MB"
+    "format": "MP4 (H.264) 9:16",
+    "fileSize": "~3.3MB",
+    "video": "/reels/reels-79.mp4",
+    "duration": "8 sec"
   },
   {
     "id": 80,
     "title": "Chashitsu Morning 4109",
-    "type": "image",
+    "type": "video",
     "category": "Edo",
     "price": 190,
     "tags": [
+      "video",
       "9:16",
       "historical",
       "edo",
@@ -1810,16 +1910,19 @@
       "YouTube Shorts"
     ],
     "resolution": "576 × 1024 (9:16)",
-    "format": "JPEG / PNG",
-    "fileSize": "~8MB"
+    "format": "MP4 (H.264) 9:16",
+    "fileSize": "~1.7MB",
+    "video": "/reels/reels-80.mp4",
+    "duration": "8 sec"
   },
   {
     "id": 81,
     "title": "Dotonbori Neon Canal",
-    "type": "image",
+    "type": "video",
     "category": "Night",
     "price": 190,
     "tags": [
+      "video",
       "9:16",
       "night",
       "neon",
@@ -1834,16 +1937,19 @@
       "AI Narration"
     ],
     "resolution": "576 × 1024 (9:16)",
-    "format": "JPEG / PNG",
-    "fileSize": "~8MB"
+    "format": "MP4 (H.264) 9:16",
+    "fileSize": "~1.5MB",
+    "video": "/reels/reels-81.mp4",
+    "duration": "8 sec"
   },
   {
     "id": 82,
     "title": "The Warlord's Stand 4109",
-    "type": "image",
+    "type": "video",
     "category": "Sengoku",
     "price": 390,
     "tags": [
+      "video",
       "9:16",
       "sengoku",
       "samurai",
@@ -1860,16 +1966,19 @@
       "TikTok"
     ],
     "resolution": "576 × 1024 (9:16)",
-    "format": "JPEG / PNG",
-    "fileSize": "~8MB"
+    "format": "MP4 (H.264) 9:16",
+    "fileSize": "~2.3MB",
+    "video": "/reels/reels-82.mp4",
+    "duration": "8 sec"
   },
   {
     "id": 83,
     "title": "River of Lanterns",
-    "type": "image",
+    "type": "video",
     "category": "Night",
     "price": 190,
     "tags": [
+      "video",
       "9:16",
       "night",
       "neon",
@@ -1884,16 +1993,19 @@
       "AI Narration"
     ],
     "resolution": "576 × 1024 (9:16)",
-    "format": "JPEG / PNG",
-    "fileSize": "~8MB"
+    "format": "MP4 (H.264) 9:16",
+    "fileSize": "~2.1MB",
+    "video": "/reels/reels-83.mp4",
+    "duration": "8 sec"
   },
   {
     "id": 84,
     "title": "Castle Under Fire 4109",
-    "type": "image",
+    "type": "video",
     "category": "Sengoku",
     "price": 390,
     "tags": [
+      "video",
       "9:16",
       "sengoku",
       "samurai",
@@ -1910,7 +2022,9 @@
       "TikTok"
     ],
     "resolution": "576 × 1024 (9:16)",
-    "format": "JPEG / PNG",
-    "fileSize": "~8MB"
+    "format": "MP4 (H.264) 9:16",
+    "fileSize": "~1.8MB",
+    "video": "/reels/reels-84.mp4",
+    "duration": "8 sec"
   }
 ]
