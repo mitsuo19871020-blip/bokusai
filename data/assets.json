@@ -1668,5 +1668,249 @@
     "resolution": "576 × 1024 (9:16)",
     "format": "JPEG / PNG",
     "fileSize": "~8MB"
+  },
+  {
+    "id": 75,
+    "title": "Autumn Pilgrimage",
+    "type": "image",
+    "category": "Shrine",
+    "price": 190,
+    "tags": [
+      "9:16",
+      "shrine",
+      "spiritual",
+      "traditional"
+    ],
+    "image": "/generated/japan-shrine-1772472782505.jpg",
+    "description": "Meiji Jingu shrine inner garden approach, enormous cedar torii gate, gravel path between towering ancient trees, solitary priest in white and purple robes, no text",
+    "scene": "Sacred torii and cedar shadows — perfect backdrop for spiritual or mindfulness AI content.",
+    "usecases": [
+      "Meditation",
+      "AI Narration",
+      "Lofi Background"
+    ],
+    "resolution": "576 × 1024 (9:16)",
+    "format": "JPEG / PNG",
+    "fileSize": "~8MB"
+  },
+  {
+    "id": 76,
+    "title": "Pontocho Night",
+    "type": "image",
+    "category": "Kyoto",
+    "price": 190,
+    "tags": [
+      "9:16",
+      "kyoto",
+      "temple",
+      "traditional"
+    ],
+    "image": "/generated/japan-kyoto-1772472781154.jpg",
+    "description": "Kinkaku-ji golden pavilion reflected in mirror-still Kyoko-chi pond, autumn maple trees in vivid red and gold, vertical composition, no text",
+    "scene": "The timeless beauty of temples and torii — ideal for meditative or travel content.",
+    "usecases": [
+      "AI Narration",
+      "Meditation",
+      "YouTube Shorts"
+    ],
+    "resolution": "576 × 1024 (9:16)",
+    "format": "JPEG / PNG",
+    "fileSize": "~8MB"
+  },
+  {
+    "id": 77,
+    "title": "Mountain Rotenburo Dawn",
+    "type": "image",
+    "category": "Nature",
+    "price": 190,
+    "tags": [
+      "9:16",
+      "nature",
+      "landscape",
+      "japan"
+    ],
+    "image": "/generated/japan-nature-1772472783854.jpg",
+    "description": "Japanese terraced rice paddy fields (tanada) on hillside in summer, perfect green terraces stepping down mountainside, traditional farmhouse (minka) in valley, golden afternoon light, no text",
+    "scene": "Seasons, silence, and natural beauty — ideal background for lofi or mindfulness videos.",
+    "usecases": [
+      "Meditation",
+      "Lofi Background",
+      "AI Narration"
+    ],
+    "resolution": "576 × 1024 (9:16)",
+    "format": "JPEG / PNG",
+    "fileSize": "~8MB"
+  },
+  {
+    "id": 78,
+    "title": "Kerama Turquoise",
+    "type": "image",
+    "category": "Nature",
+    "price": 190,
+    "tags": [
+      "9:16",
+      "nature",
+      "landscape",
+      "japan"
+    ],
+    "image": "/generated/japan-nature-1772472789073.jpg",
+    "description": "Nikko Kegon waterfall plunging 97 meters into gorge below, lush green summer forest framing the cascade, mist rising, dramatic vertical composition, no text",
+    "scene": "The raw soul of the Japanese landscape — sets a serene, immersive tone for any creator.",
+    "usecases": [
+      "Meditation",
+      "Lofi Background",
+      "AI Narration"
+    ],
+    "resolution": "576 × 1024 (9:16)",
+    "format": "JPEG / PNG",
+    "fileSize": "~8MB"
+  },
+  {
+    "id": 79,
+    "title": "Bijin-ga in Bloom",
+    "type": "image",
+    "category": "Ukiyo-e",
+    "price": 290,
+    "tags": [
+      "9:16",
+      "ukiyo-e",
+      "art",
+      "woodblock"
+    ],
+    "image": "/generated/japan-ukiyo-e-1772472787704.jpg",
+    "description": "Ukiyo-e style bijin-ga portrait, elegant woman in elaborate kanzashi hair ornaments and layered furisode kimono, cherry blossom background, vivid Edo-palette colors, flat graphic style, no text",
+    "scene": "Woodblock mastery reimagined for the vertical screen — ideal for art history narration.",
+    "usecases": [
+      "AI Narration",
+      "Art",
+      "YouTube Shorts"
+    ],
+    "resolution": "576 × 1024 (9:16)",
+    "format": "JPEG / PNG",
+    "fileSize": "~8MB"
+  },
+  {
+    "id": 80,
+    "title": "Chashitsu Morning 4109",
+    "type": "image",
+    "category": "Edo",
+    "price": 190,
+    "tags": [
+      "9:16",
+      "historical",
+      "edo",
+      "japan"
+    ],
+    "image": "/generated/japan-edo-1772472790428.jpg",
+    "description": "Edo period Asakusa temple approach (nakamise) at dawn before crowds, wooden stall shutters closed, stone lanterns lit, five-story pagoda visible through morning mist, no text",
+    "scene": "The stillness of Edo-era life — sets the tone for reflective AI voiceover videos.",
+    "usecases": [
+      "AI Narration",
+      "History",
+      "YouTube Shorts"
+    ],
+    "resolution": "576 × 1024 (9:16)",
+    "format": "JPEG / PNG",
+    "fileSize": "~8MB"
+  },
+  {
+    "id": 81,
+    "title": "Dotonbori Neon Canal",
+    "type": "image",
+    "category": "Night",
+    "price": 190,
+    "tags": [
+      "9:16",
+      "night",
+      "neon",
+      "atmospheric"
+    ],
+    "image": "/generated/japan-night-1772472796768.jpg",
+    "description": "Tokyo rooftop terrace at night, Tokyo Tower glowing red and white in distance, vast bokeh city lights spreading to horizon, moody atmospheric vertical shot, no text",
+    "scene": "The quiet pulse of Japan at night — sets a moody, cinematic tone for any creator.",
+    "usecases": [
+      "Lofi Background",
+      "TikTok",
+      "AI Narration"
+    ],
+    "resolution": "576 × 1024 (9:16)",
+    "format": "JPEG / PNG",
+    "fileSize": "~8MB"
+  },
+  {
+    "id": 82,
+    "title": "The Warlord's Stand 4109",
+    "type": "image",
+    "category": "Sengoku",
+    "price": 390,
+    "tags": [
+      "9:16",
+      "sengoku",
+      "samurai",
+      "battle",
+      "historical",
+      "authentic"
+    ],
+    "image": "/generated/japan-sengoku-1772472798151.jpg",
+    "description": "Sengoku period samurai warlord in elaborate golden kabuto helmet with towering standing crest, full tosei-gusoku battle armor, commanding hilltop position, colorful nobori battle flags with Japanese kamon crests in background, no text",
+    "scene": "Armies clash at dawn — sets the stage for strategy or leadership themed videos.",
+    "usecases": [
+      "AI Narration",
+      "History",
+      "TikTok"
+    ],
+    "resolution": "576 × 1024 (9:16)",
+    "format": "JPEG / PNG",
+    "fileSize": "~8MB"
+  },
+  {
+    "id": 83,
+    "title": "River of Lanterns",
+    "type": "image",
+    "category": "Night",
+    "price": 190,
+    "tags": [
+      "9:16",
+      "night",
+      "neon",
+      "atmospheric"
+    ],
+    "image": "/generated/japan-night-1772472799509.jpg",
+    "description": "Japanese summer matsuri festival at night, wooden yatai food stalls with warm golden noren curtains, silhouetted crowd in yukata, no signs visible, festive vertical scene",
+    "scene": "Tokyo after dark, lanterns glowing — perfect backdrop for lofi or city ambiance content.",
+    "usecases": [
+      "Lofi Background",
+      "TikTok",
+      "AI Narration"
+    ],
+    "resolution": "576 × 1024 (9:16)",
+    "format": "JPEG / PNG",
+    "fileSize": "~8MB"
+  },
+  {
+    "id": 84,
+    "title": "Castle Under Fire 4109",
+    "type": "image",
+    "category": "Sengoku",
+    "price": 390,
+    "tags": [
+      "9:16",
+      "sengoku",
+      "samurai",
+      "battle",
+      "historical",
+      "authentic"
+    ],
+    "image": "/generated/japan-sengoku-1772472803354.jpg",
+    "description": "Ashigaru foot soldiers in simple okegawa-do cuirass and jingasa conical helmets marching in formation through misty dawn, yari spears raised at uniform angle, no text, historically accurate Sengoku equipment",
+    "scene": "The age of warring states, frozen in time — ideal for epic historical content.",
+    "usecases": [
+      "AI Narration",
+      "History",
+      "TikTok"
+    ],
+    "resolution": "576 × 1024 (9:16)",
+    "format": "JPEG / PNG",
+    "fileSize": "~8MB"
   }
 ]
