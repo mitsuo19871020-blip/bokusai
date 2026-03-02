@@ -1296,5 +1296,377 @@
     "resolution": "576 × 1024 (9:16)",
     "format": "JPEG / PNG",
     "fileSize": "~8MB"
+  },
+  {
+    "id": 60,
+    "title": "Edo Bathhouse Night",
+    "type": "image",
+    "category": "Edo",
+    "price": 190,
+    "tags": [
+      "9:16",
+      "historical",
+      "edo",
+      "japan"
+    ],
+    "image": "/generated/japan-edo-1772428321561.jpg",
+    "description": "Edo period Asakusa temple approach (nakamise) at dawn before crowds, wooden stall shutters closed, stone lanterns lit, five-story pagoda visible through morning mist, no text",
+    "scene": "Merchants and lanterns of old Japan — ideal background for history or culture content.",
+    "usecases": [
+      "AI Narration",
+      "History",
+      "YouTube Shorts"
+    ],
+    "resolution": "576 × 1024 (9:16)",
+    "format": "JPEG / PNG",
+    "fileSize": "~8MB"
+  },
+  {
+    "id": 61,
+    "title": "Ryoan-ji Morning",
+    "type": "image",
+    "category": "Kyoto",
+    "price": 190,
+    "tags": [
+      "9:16",
+      "kyoto",
+      "temple",
+      "traditional"
+    ],
+    "image": "/generated/japan-kyoto-1772428318944.jpg",
+    "description": "Maiko in elaborate Kyo-katsura wig and furisode kimono walking through Gion stone-paved lane, autumn maple leaves falling, cinematic, no text",
+    "scene": "Ancient Kyoto in silence — perfect backdrop for mindfulness or cultural AI narration.",
+    "usecases": [
+      "AI Narration",
+      "Meditation",
+      "YouTube Shorts"
+    ],
+    "resolution": "576 × 1024 (9:16)",
+    "format": "JPEG / PNG",
+    "fileSize": "~8MB"
+  },
+  {
+    "id": 62,
+    "title": "White Castle in Bloom",
+    "type": "image",
+    "category": "Sengoku",
+    "price": 390,
+    "tags": [
+      "9:16",
+      "sengoku",
+      "samurai",
+      "battle",
+      "historical",
+      "authentic"
+    ],
+    "image": "/generated/japan-sengoku-1772428320270.jpg",
+    "description": "Aftermath of Sengoku battle, lone samurai in battle-worn do-maru armor standing among fallen nobori flags on foggy field, haunting and solemn atmosphere, no text",
+    "scene": "The age of warring states, frozen in time — ideal for epic historical content.",
+    "usecases": [
+      "AI Narration",
+      "History",
+      "TikTok"
+    ],
+    "resolution": "576 × 1024 (9:16)",
+    "format": "JPEG / PNG",
+    "fileSize": "~8MB"
+  },
+  {
+    "id": 63,
+    "title": "March of the Ashigaru",
+    "type": "image",
+    "category": "Sengoku",
+    "price": 390,
+    "tags": [
+      "9:16",
+      "sengoku",
+      "samurai",
+      "battle",
+      "historical",
+      "authentic"
+    ],
+    "image": "/generated/japan-sengoku-1772428323204.jpg",
+    "description": "Sengoku period samurai warlord in elaborate golden kabuto helmet with towering standing crest, full tosei-gusoku battle armor, commanding hilltop position, colorful nobori battle flags with Japanese kamon crests in background, no text",
+    "scene": "The age of warring states, frozen in time — ideal for epic historical content.",
+    "usecases": [
+      "AI Narration",
+      "History",
+      "TikTok"
+    ],
+    "resolution": "576 × 1024 (9:16)",
+    "format": "JPEG / PNG",
+    "fileSize": "~8MB"
+  },
+  {
+    "id": 64,
+    "title": "Chashitsu Morning 6902",
+    "type": "image",
+    "category": "Edo",
+    "price": 190,
+    "tags": [
+      "9:16",
+      "historical",
+      "edo",
+      "japan"
+    ],
+    "image": "/generated/japan-edo-1772428321799.jpg",
+    "description": "Edo period sumo training stable (heya) exterior, wrestlers in silhouette practicing in courtyard, wooden architecture, early morning mist, no text",
+    "scene": "Merchants and lanterns of old Japan — ideal background for history or culture content.",
+    "usecases": [
+      "AI Narration",
+      "History",
+      "YouTube Shorts"
+    ],
+    "resolution": "576 × 1024 (9:16)",
+    "format": "JPEG / PNG",
+    "fileSize": "~8MB"
+  },
+  {
+    "id": 65,
+    "title": "Momiji Garden",
+    "type": "image",
+    "category": "Nature",
+    "price": 190,
+    "tags": [
+      "9:16",
+      "nature",
+      "landscape",
+      "japan"
+    ],
+    "image": "/generated/japan-nature-1772428324672.jpg",
+    "description": "Okinawa Kerama island coastline, crystal turquoise water over white coral sand, vertical aerial perspective, tropical paradise, no text",
+    "scene": "Seasons, silence, and natural beauty — ideal background for lofi or mindfulness videos.",
+    "usecases": [
+      "Meditation",
+      "Lofi Background",
+      "AI Narration"
+    ],
+    "resolution": "576 × 1024 (9:16)",
+    "format": "JPEG / PNG",
+    "fileSize": "~8MB"
+  },
+  {
+    "id": 66,
+    "title": "Sumida River Twilight 6902",
+    "type": "image",
+    "category": "Edo",
+    "price": 190,
+    "tags": [
+      "9:16",
+      "historical",
+      "edo",
+      "japan"
+    ],
+    "image": "/generated/japan-edo-1772428327801.jpg",
+    "description": "Edo era Sumida river at twilight, wooden merchant barges moored along stone embankment, weeping willows trailing in water, stone lanterns reflecting on still surface, no signs, painterly vertical light",
+    "scene": "Merchants and lanterns of old Japan — ideal background for history or culture content.",
+    "usecases": [
+      "AI Narration",
+      "History",
+      "YouTube Shorts"
+    ],
+    "resolution": "576 × 1024 (9:16)",
+    "format": "JPEG / PNG",
+    "fileSize": "~8MB"
+  },
+  {
+    "id": 67,
+    "title": "Tanada Golden Light",
+    "type": "image",
+    "category": "Nature",
+    "price": 190,
+    "tags": [
+      "9:16",
+      "nature",
+      "landscape",
+      "japan"
+    ],
+    "image": "/generated/japan-nature-1772428326284.jpg",
+    "description": "Japanese outdoor rotenburo onsen hot spring at dawn, steam rising from dark mineral water, autumn forest in full red and gold koyo surrounding stone bath, serene mountain valley, no text",
+    "scene": "Japan's untouched wilderness in one vertical frame — perfect for relaxation or nature content.",
+    "usecases": [
+      "Meditation",
+      "Lofi Background",
+      "AI Narration"
+    ],
+    "resolution": "576 × 1024 (9:16)",
+    "format": "JPEG / PNG",
+    "fileSize": "~8MB"
+  },
+  {
+    "id": 68,
+    "title": "Harajuku Golden Hour",
+    "type": "image",
+    "category": "Shibuya",
+    "price": 190,
+    "tags": [
+      "9:16",
+      "shibuya",
+      "modern",
+      "tokyo"
+    ],
+    "image": "/generated/japan-shibuya-1772428329044.jpg",
+    "description": "Akihabara Electric Town at night, glowing LEDs and anime screen displays, futuristic urban canyon, vertical neon corridor, no legible text, atmospheric",
+    "scene": "The organized chaos of Shibuya crossing — perfect for modern Japan or lifestyle AI content.",
+    "usecases": [
+      "TikTok",
+      "AI Narration",
+      "YouTube Shorts"
+    ],
+    "resolution": "576 × 1024 (9:16)",
+    "format": "JPEG / PNG",
+    "fileSize": "~8MB"
+  },
+  {
+    "id": 69,
+    "title": "Castle Under Fire",
+    "type": "image",
+    "category": "Sengoku",
+    "price": 390,
+    "tags": [
+      "9:16",
+      "sengoku",
+      "samurai",
+      "battle",
+      "historical",
+      "authentic"
+    ],
+    "image": "/generated/japan-sengoku-1772428331460.jpg",
+    "description": "Single combat between two Sengoku samurai generals on misty riverbank, both in full tosei-gusoku armor with kabuto, katana clashing, water splashing, epic cinematic moment, no text",
+    "scene": "Warlords and battlefield fog — perfect for AI narration on ambition and legacy.",
+    "usecases": [
+      "AI Narration",
+      "History",
+      "TikTok"
+    ],
+    "resolution": "576 × 1024 (9:16)",
+    "format": "JPEG / PNG",
+    "fileSize": "~8MB"
+  },
+  {
+    "id": 70,
+    "title": "Kneeling Before the Shrine",
+    "type": "image",
+    "category": "Samurai",
+    "price": 390,
+    "tags": [
+      "9:16",
+      "samurai",
+      "warrior",
+      "historical",
+      "authentic"
+    ],
+    "image": "/generated/japan-samurai-1772428332226.jpg",
+    "description": "Edo period samurai in formal haori jacket bearing family kamon crest over dark hakama, daisho at left hip, seated in tatami room with shoji screens casting geometric shadows, no text",
+    "scene": "A warrior at peace, blade set aside — perfect for AI narration on discipline and inner strength.",
+    "usecases": [
+      "AI Narration",
+      "History",
+      "TikTok"
+    ],
+    "resolution": "576 × 1024 (9:16)",
+    "format": "JPEG / PNG",
+    "fileSize": "~8MB"
+  },
+  {
+    "id": 71,
+    "title": "Pontocho Rain Duel",
+    "type": "image",
+    "category": "Bakumatsu",
+    "price": 390,
+    "tags": [
+      "9:16",
+      "bakumatsu",
+      "samurai",
+      "historical",
+      "authentic"
+    ],
+    "image": "/generated/japan-bakumatsu-1772428333596.jpg",
+    "description": "Battle-weary samurai in worn battle-damaged tosei-gusoku armor standing amid autumn maple forest, contemplative expression, shafts of golden light through red leaves, end of an era atmosphere, no text",
+    "scene": "Japan at the edge of transformation — perfect for AI narration on change and sacrifice.",
+    "usecases": [
+      "AI Narration",
+      "History",
+      "YouTube Shorts"
+    ],
+    "resolution": "576 × 1024 (9:16)",
+    "format": "JPEG / PNG",
+    "fileSize": "~8MB"
+  },
+  {
+    "id": 72,
+    "title": "Above the Clouds",
+    "type": "image",
+    "category": "Fuji",
+    "price": 190,
+    "tags": [
+      "9:16",
+      "fuji",
+      "mountain",
+      "landscape"
+    ],
+    "image": "/generated/japan-fuji-1772428335371.jpg",
+    "description": "Mount Fuji seen through tall vermilion torii gate of Fuji Sengen shrine, morning mist, cedar forest framing, spiritual vertical composition, no text",
+    "scene": "Japan's sacred peak above the clouds — ideal for AI narration on perseverance and awe.",
+    "usecases": [
+      "AI Narration",
+      "Meditation",
+      "Lofi Background"
+    ],
+    "resolution": "576 × 1024 (9:16)",
+    "format": "JPEG / PNG",
+    "fileSize": "~8MB"
+  },
+  {
+    "id": 73,
+    "title": "The Warlord's Stand",
+    "type": "image",
+    "category": "Sengoku",
+    "price": 390,
+    "tags": [
+      "9:16",
+      "sengoku",
+      "samurai",
+      "battle",
+      "historical",
+      "authentic"
+    ],
+    "image": "/generated/japan-sengoku-1772428336831.jpg",
+    "description": "Aftermath of Sengoku battle, lone samurai in battle-worn do-maru armor standing among fallen nobori flags on foggy field, haunting and solemn atmosphere, no text",
+    "scene": "Armies clash at dawn — sets the stage for strategy or leadership themed videos.",
+    "usecases": [
+      "AI Narration",
+      "History",
+      "TikTok"
+    ],
+    "resolution": "576 × 1024 (9:16)",
+    "format": "JPEG / PNG",
+    "fileSize": "~8MB"
+  },
+  {
+    "id": 74,
+    "title": "Field of Fallen Banners",
+    "type": "image",
+    "category": "Sengoku",
+    "price": 390,
+    "tags": [
+      "9:16",
+      "sengoku",
+      "samurai",
+      "battle",
+      "historical",
+      "authentic"
+    ],
+    "image": "/generated/japan-sengoku-1772428338058.jpg",
+    "description": "Sengoku arquebusiers (teppo-shu) kneeling in firing line formation, matchlock tanegashima guns, bamboo spear phalanx of ashigaru visible behind, historic battlefield formation, dramatic lighting, no text",
+    "scene": "The age of warring states, frozen in time — ideal for epic historical content.",
+    "usecases": [
+      "AI Narration",
+      "History",
+      "TikTok"
+    ],
+    "resolution": "576 × 1024 (9:16)",
+    "format": "JPEG / PNG",
+    "fileSize": "~8MB"
   }
 ]
