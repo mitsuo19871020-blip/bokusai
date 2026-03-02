@@ -3,6 +3,8 @@ import { packs } from '@/lib/packs'
 import { assets } from '@/lib/assets'
 import PackBuyButton from '@/components/PackBuyButton'
 
+export const dynamic = 'force-dynamic'
+
 export const metadata = {
   title: 'Scene Packs — bokusai',
   description: 'Curated scene packs for AI video creators. Buy a bundle and save.',
