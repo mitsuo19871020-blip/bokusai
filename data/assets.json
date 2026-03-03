@@ -157,7 +157,7 @@
   },
   {
     "id": 16,
-    "title": "Tokyo Skyline at Night",
+    "title": "City Lights at Night",
     "type": "video",
     "category": "Night",
     "price": 500,
@@ -417,13 +417,13 @@
   },
   {
     "id": 26,
-    "title": "Akihabara Glow",
+    "title": "Electric City Glow",
     "type": "video",
-    "category": "Shibuya",
+    "category": "Urban",
     "price": 200,
     "tags": [
       "video",
-      "shibuya",
+      "urban",
       "modern",
       "tokyo"
     ],
@@ -469,13 +469,13 @@
   },
   {
     "id": 28,
-    "title": "Shibuya Crossing Night",
+    "title": "Neon City Night",
     "type": "video",
-    "category": "Shibuya",
+    "category": "Urban",
     "price": 200,
     "tags": [
       "video",
-      "shibuya",
+      "urban",
       "modern",
       "tokyo"
     ],
@@ -600,14 +600,14 @@
   },
   {
     "id": 33,
-    "title": "Akihabara Neon Night",
+    "title": "Fashion Street at Dusk",
     "type": "video",
-    "category": "Shibuya",
+    "category": "Urban",
     "price": 190,
     "tags": [
       "video",
       "9:16",
-      "shibuya",
+      "urban",
       "modern",
       "tokyo"
     ],
@@ -654,14 +654,14 @@
   },
   {
     "id": 35,
-    "title": "Shibuya Sky View",
+    "title": "Waterfront Bridge Night",
     "type": "video",
-    "category": "Shibuya",
+    "category": "Urban",
     "price": 190,
     "tags": [
       "video",
       "9:16",
-      "shibuya",
+      "urban",
       "modern",
       "tokyo"
     ],
@@ -901,14 +901,14 @@
   },
   {
     "id": 44,
-    "title": "Shinjuku Canyon",
+    "title": "Neon Urban Canyon",
     "type": "video",
-    "category": "Shibuya",
+    "category": "Urban",
     "price": 190,
     "tags": [
       "video",
       "9:16",
-      "shibuya",
+      "urban",
       "modern",
       "tokyo"
     ],
@@ -928,7 +928,7 @@
   },
   {
     "id": 45,
-    "title": "Tokyo Tower Night View",
+    "title": "Festival Night Market",
     "type": "video",
     "category": "Night",
     "price": 190,
@@ -1177,7 +1177,7 @@
   },
   {
     "id": 55,
-    "title": "Izakaya Alley at Midnight",
+    "title": "Night Train Platform",
     "type": "image",
     "category": "Night",
     "price": 190,
@@ -1251,13 +1251,13 @@
   },
   {
     "id": 58,
-    "title": "Odaiba Rainbow Night",
+    "title": "Glass Tower Twilight",
     "type": "image",
-    "category": "Shibuya",
+    "category": "Urban",
     "price": 190,
     "tags": [
       "9:16",
-      "shibuya",
+      "urban",
       "modern",
       "tokyo"
     ],
@@ -1495,13 +1495,13 @@
   },
   {
     "id": 68,
-    "title": "Harajuku Golden Hour",
+    "title": "Electric Arcade Night",
     "type": "image",
-    "category": "Shibuya",
+    "category": "Urban",
     "price": 190,
     "tags": [
       "9:16",
-      "shibuya",
+      "urban",
       "modern",
       "tokyo"
     ],
@@ -1815,7 +1815,7 @@
   },
   {
     "id": 81,
-    "title": "Dotonbori Neon Canal",
+    "title": "Rooftop City Night",
     "type": "image",
     "category": "Night",
     "price": 190,
@@ -1865,7 +1865,7 @@
   },
   {
     "id": 83,
-    "title": "River of Lanterns",
+    "title": "Summer Festival Stalls",
     "type": "image",
     "category": "Night",
     "price": 190,

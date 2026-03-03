@@ -5,7 +5,7 @@ import Link from 'next/link'
 import { assets, categoryGradients, categoryKanji } from '@/lib/assets'
 
 const TYPES = ['All', 'Video', 'Image'] as const
-const CATEGORIES = ['All', 'Samurai', 'Fuji', 'Kyoto', 'Edo', 'Night', 'Ukiyo-e'] as const
+const CATEGORIES = ['All', 'Samurai', 'Fuji', 'Kyoto', 'Edo', 'Night', 'Urban', 'Ukiyo-e'] as const
 const SORTS = [
   { value: 'featured', label: 'Featured' },
   { value: 'price-asc', label: 'Price: Low to High' },
