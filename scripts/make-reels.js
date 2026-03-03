@@ -111,16 +111,11 @@ for (const asset of targets) {
     console.log(`✅  (${size} MB)`)
     ok++
 
-    // assets.json を更新して動画アセットとして登録
+    // assets.json にリールパスを記録するが type は変えない
     const idx = allAssets.findIndex(a => a.id === asset.id)
     if (idx !== -1) {
-      allAssets[idx].type = 'video'
-      allAssets[idx].video = `/reels/${MODE_LABEL}-${asset.id}.mp4`
-      allAssets[idx].format = `MP4 (H.264) ${isSquare ? '1:1' : '9:16'}`
-      allAssets[idx].duration = `${DURATION} sec`
-      allAssets[idx].fileSize = `~${size}MB`
-      allAssets[idx].tags = allAssets[idx].tags.filter(t => t !== '4K')
-      if (!allAssets[idx].tags.includes('video')) allAssets[idx].tags.unshift('video')
+      // type は 'image' のまま維持（make-reels は静止画からの動画プレビュー生成のみ）
+      allAssets[idx].reels = `/reels/${MODE_LABEL}-${asset.id}.mp4`
     }
   } catch (e) {
     console.log(`❌  failed`)
