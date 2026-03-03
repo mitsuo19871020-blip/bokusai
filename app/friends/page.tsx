@@ -1,9 +1,11 @@
 import Link from 'next/link'
 import RequestForm from './RequestForm'
+import { journalPosts } from '@/lib/journal'
+import { assets, categoryGradients } from '@/lib/assets'
 
 export const metadata = {
-  title: 'bokusai Friends — Request a Scene',
-  description: "I'm Mitsuo, from Japan. Tell me what visuals you need and I'll create them for you.",
+  title: 'bokusai Friends — Mitsuo from Japan',
+  description: "I'm Mitsuo, from Japan. I write about Japanese aesthetics and make AI visuals for creators worldwide.",
 }
 
 export default function FriendsPage() {
@@ -56,6 +58,48 @@ export default function FriendsPage() {
           </p>
           <footer className="text-white/30 text-sm mt-3">— Mitsuo, Tokyo</footer>
         </blockquote>
+
+        {/* Latest from the Journal */}
+        <div className="mb-16">
+          <div className="flex items-end justify-between mb-6">
+            <div>
+              <p className="text-red-500 text-xs tracking-widest uppercase mb-1">From the Journal</p>
+              <h2 className="text-xl font-bold text-white">What I think about</h2>
+            </div>
+            <Link href="/journal" className="text-white/30 hover:text-white text-xs tracking-wide transition-colors">
+              All entries →
+            </Link>
+          </div>
+          <div className="space-y-4">
+            {journalPosts.slice(0, 3).map((post) => {
+              const linkedAsset = post.assetId ? assets.find((a) => a.id === post.assetId) : null
+              const gradient = linkedAsset
+                ? (categoryGradients[linkedAsset.category] ?? 'from-zinc-800 to-zinc-900')
+                : 'from-zinc-800 to-zinc-900'
+              return (
+                <Link
+                  key={post.slug}
+                  href={`/journal/${post.slug}`}
+                  className="group flex items-center gap-4 p-4 rounded-xl bg-white/[0.02] border border-white/5 hover:border-white/20 transition-all"
+                >
+                  <div className={`w-14 h-14 shrink-0 rounded-lg overflow-hidden bg-gradient-to-br ${gradient}`}>
+                    {linkedAsset && (
+                      <img src={linkedAsset.image} alt="" className="w-full h-full object-cover opacity-80 group-hover:opacity-100 transition-opacity" />
+                    )}
+                    {!linkedAsset && (
+                      <span className="w-full h-full flex items-center justify-center text-white/20 text-xl font-serif">記</span>
+                    )}
+                  </div>
+                  <div className="flex-1 min-w-0">
+                    <p className="text-white/80 text-sm font-medium group-hover:text-red-400 transition-colors truncate">{post.title}</p>
+                    <p className="text-white/30 text-xs mt-0.5 line-clamp-1">{post.excerpt}</p>
+                  </div>
+                  <span className="text-white/20 group-hover:text-white/50 text-sm transition-colors shrink-0">→</span>
+                </Link>
+              )
+            })}
+          </div>
+        </div>
 
         {/* Request form */}
         <div className="bg-white/[0.02] border border-white/8 rounded-2xl p-8">
