@@ -43,6 +43,27 @@ const OUTPUT_DIR = path.join(PUBLIC_DIR, `reels`)
 
 fs.mkdirSync(OUTPUT_DIR, { recursive: true })
 
+// ── モーションパターン (ランダム) ────────────────────────────────
+const PATTERN_NAMES = ['ズームイン', 'ズームアウト', 'パン左→右', 'パン右→左', '上→下ドリフト', '対角ドリフト']
+
+function pickMotionFilter() {
+  const idx = Math.floor(Math.random() * PATTERN_NAMES.length)
+  const z = 1.2
+  const f = FRAMES - 1  // 終端フレーム (0-indexed)
+  const w = OUT_W, h = OUT_H
+
+  // trunc() でジター（微細な震え）を抑制
+  const motion = {
+    0: `zoompan=z='min(zoom+0.0010,1.25)':x='trunc(iw/2-(iw/zoom/2))':y='trunc(ih/2-(ih/zoom/2))':d=${FRAMES}:s=${w}x${h}:fps=${FPS}`,
+    1: `zoompan=z='if(eq(on,1),1.25,max(zoom-0.0010,1.0))':x='trunc(iw/2-(iw/zoom/2))':y='trunc(ih/2-(ih/zoom/2))':d=${FRAMES}:s=${w}x${h}:fps=${FPS}`,
+    2: `zoompan=z=${z}:x='trunc((iw-iw/${z})*(on-1)/${f})':y='trunc(ih/2-(ih/${z}/2))':d=${FRAMES}:s=${w}x${h}:fps=${FPS}`,
+    3: `zoompan=z=${z}:x='trunc((iw-iw/${z})*(1-(on-1)/${f}))':y='trunc(ih/2-(ih/${z}/2))':d=${FRAMES}:s=${w}x${h}:fps=${FPS}`,
+    4: `zoompan=z=${z}:x='trunc(iw/2-(iw/${z}/2))':y='trunc((ih-ih/${z})*(on-1)/${f})':d=${FRAMES}:s=${w}x${h}:fps=${FPS}`,
+    5: `zoompan=z=${z}:x='trunc((iw-iw/${z})*(on-1)/${f})':y='trunc((ih-ih/${z})*(on-1)/${f})':d=${FRAMES}:s=${w}x${h}:fps=${FPS}`,
+  }
+  return { filter: motion[idx], name: PATTERN_NAMES[idx] }
+}
+
 // ── FFmpeg チェック ───────────────────────────────────────────────
 try {
   execSync('ffmpeg -version', { stdio: 'pipe' })
@@ -83,14 +104,12 @@ for (const asset of targets) {
     continue
   }
 
-  // Ken Burns zoom-in + 9:16 (or 1:1) crop + fade in/out
+  // ランダムモーション + フェードイン/アウト
+  const { filter: motionFilter, name: motionName } = pickMotionFilter()
   const filters = [
-    // 出力サイズにスケール（はみ出しOK、アスペクト維持）
     `scale=${OUT_W}:${OUT_H}:force_original_aspect_ratio=increase`,
     `crop=${OUT_W}:${OUT_H}`,
-    // Ken Burns: ゆっくりズームイン (中央固定)
-    `zoompan=z='min(zoom+0.0015,1.5)':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d=${FRAMES}:s=${OUT_W}x${OUT_H}:fps=${FPS}`,
-    // フェードイン / アウト
+    motionFilter,
     `fade=t=in:st=0:d=0.5`,
     `fade=t=out:st=${DURATION - 0.5}:d=0.5`,
   ].join(',')
@@ -104,7 +123,7 @@ for (const asset of targets) {
     `"${outputPath}"`,
   ].join(' ')
 
-  process.stdout.write(`  [${asset.id}] ${asset.title} ... `)
+  process.stdout.write(`  [${asset.id}] ${asset.title} [${motionName}] ... `)
   try {
     execSync(cmd, { stdio: 'pipe' })
     const size = (fs.statSync(outputPath).size / 1024 / 1024).toFixed(1)
@@ -126,7 +145,7 @@ for (const asset of targets) {
 // assets.json に書き込む
 if (ok > 0) {
   fs.writeFileSync(ASSETS_PATH, JSON.stringify(allAssets, null, 2))
-  console.log(`\n  📝 assets.json 更新済み (${ok}件を video 型に変換)`)
+  console.log(`\n  📝 assets.json 更新済み (${ok}件)`)
 }
 
 // ── サマリー ─────────────────────────────────────────────────────
