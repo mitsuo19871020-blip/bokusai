@@ -19,7 +19,7 @@ const path = require('path')
 
 const categories = require('./categories')
 
-const INBOX_DIR = path.join(__dirname, '../public/generated/inbox')
+const INBOX_DIR = path.join(require('os').homedir(), 'Desktop/bokusai-inbox')
 const OUTPUT_DIR = path.join(__dirname, '../public/generated')
 const DATA_FILE = path.join(__dirname, '../data/assets.json')
 
