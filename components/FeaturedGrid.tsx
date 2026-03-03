@@ -1,9 +1,16 @@
 'use client'
 
+import { useState } from 'react'
 import Link from 'next/link'
 import { assets, categoryGradients, categoryKanji } from '@/lib/assets'
 
 export default function FeaturedGrid() {
+  const [typeFilter, setTypeFilter] = useState<'All' | 'Video' | 'Image'>('All')
+
+  const filtered = typeFilter === 'All'
+    ? assets
+    : assets.filter((a) => a.type === typeFilter.toLowerCase())
+
   return (
     <section className="bg-black py-24 px-6">
       <div className="max-w-7xl mx-auto">
@@ -28,11 +35,12 @@ export default function FeaturedGrid() {
 
         {/* Filter tabs */}
         <div className="flex gap-3 mb-8">
-          {['All', 'Video', 'Image'].map((tab) => (
+          {(['All', 'Video', 'Image'] as const).map((tab) => (
             <button
               key={tab}
+              onClick={() => setTypeFilter(tab)}
               className={`px-4 py-1.5 rounded text-sm tracking-wide transition-colors ${
-                tab === 'All'
+                typeFilter === tab
                   ? 'bg-red-600 text-white'
                   : 'bg-white/5 text-white/50 hover:text-white hover:bg-white/10 border border-white/10'
               }`}
@@ -44,7 +52,7 @@ export default function FeaturedGrid() {
 
         {/* Grid */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-          {assets.map((asset) => (
+          {filtered.map((asset) => (
             <Link
               key={asset.id}
               href={`/asset/${asset.id}`}
