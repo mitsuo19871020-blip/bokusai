@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import RequestForm from './RequestForm'
+import TwitterEmbed from '@/components/TwitterEmbed'
 import { journalPosts } from '@/lib/journal'
 import { assets, categoryGradients } from '@/lib/assets'
 
@@ -31,6 +32,7 @@ export default function FriendsPage() {
             I&apos;m a Japanese creator who makes AI visuals for video creators around the world.
             Every image on this site was made by me — one at a time.
           </p>
+          <TwitterEmbed />
         </div>
       </div>
 
